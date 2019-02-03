@@ -16,7 +16,7 @@ class DayProgressView: UIView {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        progressRing.innerRingColor = UIColor(red: 237.0/255.0, green: 63.0/255.0, blue: 63.0/255.0, alpha: 1.0)
+        progressRing.innerRingColor = globalTint
     }
     
     func configure(for dateString: String, adherence: Float) {

@@ -26,9 +26,8 @@ struct AdherenceViewModel {
     init(user: User, friends: [User]) {
         let range = 0..<6
         let lastSixDays = range.map { delta -> DateComponents in
-            var components = DateComponents.nowComponents
-            components.day = (components.day ?? 0) - 5 + delta
-            return components
+            let date = Date().addingTimeInterval(TimeInterval(60*60*24*(-5 + delta)))
+            return Calendar.current.dateComponents(Set([.year, .month, .day]), from: date)
         }
         
         let adherenceViewModels = lastSixDays.map {
@@ -36,7 +35,10 @@ struct AdherenceViewModel {
         }
         
         me = FriendAdherenceViewModel(name: user.firstName + " " + user.lastName, streak: user.streak, actionable: false, dayAdherenceViewModels: adherenceViewModels)
-        self.friends = []
+        
+        self.friends = friends.map {
+            FriendAdherenceViewModel(name: $0.firstName + " " + $0.lastName, streak: $0.streak, actionable: true, dayAdherenceViewModels: adherenceViewModels)
+        }
     }
 }
 

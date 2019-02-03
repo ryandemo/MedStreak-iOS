@@ -15,8 +15,16 @@ class AdherenceTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        viewModel = AdherenceViewModel(me: FriendAdherenceViewModel(name: "Me", streak: 4, actionable: false, dayAdherenceViewModels: [DayAdherenceViewModel(dayString: "2/3", adherence: 0.9)]), friends: [FriendAdherenceViewModel(name: "Jane Shin", streak: 11, actionable: true, dayAdherenceViewModels: [DayAdherenceViewModel(dayString: "2/3", adherence: 0.9)]), FriendAdherenceViewModel(name: "Andrew Wong", streak: 7, actionable: true, dayAdherenceViewModels: [DayAdherenceViewModel(dayString: "2/3", adherence: 0.9)])])
+        reloadViewModel()
         tableView.reloadData()
+    }
+    
+    func reloadViewModel() {
+        if let currentUser = UserManager.currentUser {
+            viewModel = AdherenceViewModel(user: currentUser, friends: UserManager.currentFriends)
+        } else {
+            viewModel = AdherenceViewModel(me: FriendAdherenceViewModel(name: "Me", streak: 4, actionable: false, dayAdherenceViewModels: [DayAdherenceViewModel(dayString: "2/3", adherence: 0.9)]), friends: [FriendAdherenceViewModel(name: "Jane Shin", streak: 11, actionable: true, dayAdherenceViewModels: [DayAdherenceViewModel(dayString: "2/3", adherence: 0.9)]), FriendAdherenceViewModel(name: "Andrew Wong", streak: 7, actionable: true, dayAdherenceViewModels: [DayAdherenceViewModel(dayString: "2/3", adherence: 0.9)])])
+        }
     }
 
     // MARK: - Table view data source

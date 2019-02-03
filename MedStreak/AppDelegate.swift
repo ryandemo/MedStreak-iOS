@@ -8,6 +8,8 @@
 
 import UIKit
 
+let globalTint = UIColor(red: 100/255.0, green: 140/255.0, blue: 236/255.0, alpha: 1.0)
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -15,7 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        window?.tintColor = UIColor(red: 237.0/255.0, green: 63.0/255.0, blue: 63.0/255.0, alpha: 1.0)
+        window?.tintColor = globalTint
+        UserManager.shared.refreshUser()
         return true
     }
 

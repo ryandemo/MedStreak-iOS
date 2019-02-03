@@ -27,7 +27,7 @@ struct ProfileViewModel {
             ]),
             ProfileSectionViewModel(title: "Insurance Benefits", rows: [
                 ProfileInfoViewModel(description: "MedPoints", value: String(describing: user.points)),
-                ProfileInfoViewModel(description: "Next Reward", value: "1000 points, 10% off medication copay")
+                ProfileInfoViewModel(description: "Next Reward", value: "2000 points, 10% off medication copay")
             ])
         ]
     }

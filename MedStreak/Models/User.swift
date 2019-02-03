@@ -20,10 +20,15 @@ struct User: Codable {
     let type: UserType
     let points: Int
     let streak: Int
-    let medications: [Medication]
+    let medications: [String]
     let friends: [String]
     
-    init(id: String, firstName: String, lastName: String, email: String, type: UserType, points: Int, streak: Int, medications: [Medication], friends: [String]) {
+    private enum CodingKeys: String, CodingKey {
+        case id = "_id"
+        case firstName, lastName, email, type, points, streak, medications, friends
+    }
+    
+    init(id: String, firstName: String, lastName: String, email: String, type: UserType, points: Int, streak: Int, medications: [String], friends: [String]) {
         self.id = id
         self.firstName = firstName
         self.lastName = lastName

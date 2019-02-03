@@ -14,7 +14,13 @@ class ProfileTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        tableView.reloadData()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        viewModel = UserManager.currentUser.flatMap(ProfileViewModel.init) ?? .empty
         tableView.reloadData()
     }
 

@@ -16,6 +16,7 @@ class CarePlanViewController: OCKCareCardViewController {
 
         navigationItem.title = "Care Plan"
         glyphType = .medication
+        glyphTintColor = globalTint
         
         HealthRecordsManager.shared.requestHealthRecordsAuthorization { success in
             guard success else {

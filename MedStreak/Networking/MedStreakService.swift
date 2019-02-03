@@ -35,12 +35,13 @@ struct MedStreakService {
     
     static let shared = MedStreakService()
     private init() {
-        api = API(baseURL: URL(string: "http://hippocratesmedreview.org/")!)
+        api = API(baseURL: URL(string: "http://127.0.0.1:5000/api/")!)
         
         let formatter = DateFormatter()
         formatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss"
         decoder = JSONDecoder()
         decoder.dateDecodingStrategy = .formatted(formatter)
+        decoder.keyDecodingStrategy = .convertFromSnakeCase
     }
     
     func deserialize<T: Decodable>(_ type: T.Type, from response: DataResponse<Data>, completion: @escaping (Result<T>) -> Void) {
@@ -68,5 +69,9 @@ struct MedStreakService {
     
     func getFriends(forUserWithID id: String, completion: @escaping (Result<FriendsResponse>) -> Void) {
         session.request(api.friends(forUserWithID: id)).responseData(completionHandler: { self.deserialize(FriendsResponse.self, from: $0, completion: completion) })
+    }
+    
+    func getMyFriends(completion: @escaping (Result<FriendsResponse>) -> Void) {
+        getFriends(forUserWithID: userID, completion: completion)
     }
 }

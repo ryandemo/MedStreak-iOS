@@ -48,6 +48,6 @@ struct Medication: Codable {
     }
     
     var asOCKActivty: OCKCarePlanActivity {
-        return OCKCarePlanActivity.intervention(withIdentifier: id, groupIdentifier: "Medications", title: name, text: scheduleDescription, tintColor: UIColor(red: 237.0/255.0, green: 63.0/255.0, blue: 63.0/255.0, alpha: 1.0), instructions: instructions, imageURL: nil, schedule: ockSchedule, userInfo: nil, optional: false)
+        return OCKCarePlanActivity.intervention(withIdentifier: id, groupIdentifier: "Medications", title: name, text: scheduleDescription, tintColor: globalTint, instructions: instructions, imageURL: nil, schedule: ockSchedule, userInfo: nil, optional: false)
     }
 }
