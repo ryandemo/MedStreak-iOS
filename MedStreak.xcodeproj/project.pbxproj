@@ -1,0 +1,861 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		489F4C5DA59060AC5DA44C31 /* Pods_MedStreak.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE49BCEE18EAEF947A8E0AD /* Pods_MedStreak.framework */; };
+		75FC3704FF489E94B75B0197 /* Pods_MedStreakTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD1D76820E10444826502836 /* Pods_MedStreakTests.framework */; };
+		94073AC72206365D00885C66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94073AC62206365D00885C66 /* AppDelegate.swift */; };
+		94073ACE2206365D00885C66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94073ACC2206365D00885C66 /* Main.storyboard */; };
+		94073AD02206365F00885C66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94073ACF2206365F00885C66 /* Assets.xcassets */; };
+		94073AD32206365F00885C66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94073AD12206365F00885C66 /* LaunchScreen.storyboard */; };
+		94073ADE2206366000885C66 /* MedStreakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94073ADD2206366000885C66 /* MedStreakTests.swift */; };
+		94073AE92206366000885C66 /* MedStreakUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94073AE82206366000885C66 /* MedStreakUITests.swift */; };
+		94073AF822063EA500885C66 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94073AF722063EA500885C66 /* API.swift */; };
+		94073AFA22063EBF00885C66 /* MedStreakService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94073AF922063EBF00885C66 /* MedStreakService.swift */; };
+		94073AFD22063FB900885C66 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94073AFC22063FB900885C66 /* User.swift */; };
+		94073AFF22063FBF00885C66 /* Medication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94073AFE22063FBF00885C66 /* Medication.swift */; };
+		94073B012206433600885C66 /* CarePlanStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94073B002206433600885C66 /* CarePlanStoreManager.swift */; };
+		94073B04220648BB00885C66 /* CarePlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94073B03220648BB00885C66 /* CarePlanViewController.swift */; };
+		94073B062206490700885C66 /* CarePlanNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94073B052206490700885C66 /* CarePlanNavController.swift */; };
+		94073B0822064F7200885C66 /* AdherenceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94073B0722064F7200885C66 /* AdherenceTableViewController.swift */; };
+		94073B0A22064F8C00885C66 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94073B0922064F8C00885C66 /* ProfileTableViewController.swift */; };
+		94073B0C2206517300885C66 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94073B0B2206517300885C66 /* UserManager.swift */; };
+		94073B0F2206588600885C66 /* FriendAdherenceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94073B0E2206588600885C66 /* FriendAdherenceTableViewCell.swift */; };
+		9484BC172206B71B001E835D /* DayProgressView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9484BC162206B71B001E835D /* DayProgressView.xib */; };
+		9484BC192206B7FE001E835D /* DayProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9484BC182206B7FE001E835D /* DayProgressView.swift */; };
+		9484BC1C2206B954001E835D /* FriendAdherenceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9484BC1B2206B954001E835D /* FriendAdherenceViewModel.swift */; };
+		9484BC1F2206C869001E835D /* DateComponents+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9484BC1E2206C869001E835D /* DateComponents+Extension.swift */; };
+		9484BC212206D54F001E835D /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9484BC202206D54F001E835D /* ProfileViewModel.swift */; };
+		9484BC232206D8CD001E835D /* ProfileInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9484BC222206D8CD001E835D /* ProfileInfoTableViewCell.swift */; };
+		9484BC2522073BF5001E835D /* HealthRecordsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9484BC2422073BF5001E835D /* HealthRecordsManager.swift */; };
+		9484BC2722073F2D001E835D /* UIViewController+SimpleAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9484BC2622073F2D001E835D /* UIViewController+SimpleAlert.swift */; };
+		9484BC2922074177001E835D /* MedicationStatement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9484BC2822074177001E835D /* MedicationStatement.swift */; };
+		9484BC2C22074421001E835D /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9484BC2B22074421001E835D /* HealthKit.framework */; };
+		9484BC2E220752D4001E835D /* Responses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9484BC2D220752D3001E835D /* Responses.swift */; };
+		FFE1D2259B31DD2E29BF2D71 /* Pods_MedStreakUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E7C9CAF583B8339A39F3CE /* Pods_MedStreakUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94073ADA2206366000885C66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94073ABB2206365D00885C66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94073AC22206365D00885C66;
+			remoteInfo = MedStreak;
+		};
+		94073AE52206366000885C66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94073ABB2206365D00885C66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94073AC22206365D00885C66;
+			remoteInfo = MedStreak;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48E7C9CAF583B8339A39F3CE /* Pods_MedStreakUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedStreakUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51EADA0E56A6B8AC0102116F /* Pods-MedStreakTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedStreakTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MedStreakTests/Pods-MedStreakTests.release.xcconfig"; sourceTree = "<group>"; };
+		6F4089DE3B6A59732E008275 /* Pods-MedStreak.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedStreak.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MedStreak/Pods-MedStreak.debug.xcconfig"; sourceTree = "<group>"; };
+		7AE6E9BF2767BB90101E222E /* Pods-MedStreakUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedStreakUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MedStreakUITests/Pods-MedStreakUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8DE49BCEE18EAEF947A8E0AD /* Pods_MedStreak.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedStreak.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94073AC32206365D00885C66 /* MedStreak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedStreak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94073AC62206365D00885C66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94073ACD2206365D00885C66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94073ACF2206365F00885C66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94073AD22206365F00885C66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94073AD42206365F00885C66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94073AD92206366000885C66 /* MedStreakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedStreakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94073ADD2206366000885C66 /* MedStreakTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedStreakTests.swift; sourceTree = "<group>"; };
+		94073ADF2206366000885C66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94073AE42206366000885C66 /* MedStreakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedStreakUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94073AE82206366000885C66 /* MedStreakUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedStreakUITests.swift; sourceTree = "<group>"; };
+		94073AEA2206366000885C66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94073AF722063EA500885C66 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		94073AF922063EBF00885C66 /* MedStreakService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedStreakService.swift; sourceTree = "<group>"; };
+		94073AFC22063FB900885C66 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		94073AFE22063FBF00885C66 /* Medication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medication.swift; sourceTree = "<group>"; };
+		94073B002206433600885C66 /* CarePlanStoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarePlanStoreManager.swift; sourceTree = "<group>"; };
+		94073B03220648BB00885C66 /* CarePlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarePlanViewController.swift; sourceTree = "<group>"; };
+		94073B052206490700885C66 /* CarePlanNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarePlanNavController.swift; sourceTree = "<group>"; };
+		94073B0722064F7200885C66 /* AdherenceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdherenceTableViewController.swift; sourceTree = "<group>"; };
+		94073B0922064F8C00885C66 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		94073B0B2206517300885C66 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		94073B0E2206588600885C66 /* FriendAdherenceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendAdherenceTableViewCell.swift; sourceTree = "<group>"; };
+		9484BC162206B71B001E835D /* DayProgressView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DayProgressView.xib; sourceTree = "<group>"; };
+		9484BC182206B7FE001E835D /* DayProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayProgressView.swift; sourceTree = "<group>"; };
+		9484BC1B2206B954001E835D /* FriendAdherenceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendAdherenceViewModel.swift; sourceTree = "<group>"; };
+		9484BC1E2206C869001E835D /* DateComponents+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateComponents+Extension.swift"; sourceTree = "<group>"; };
+		9484BC202206D54F001E835D /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		9484BC222206D8CD001E835D /* ProfileInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoTableViewCell.swift; sourceTree = "<group>"; };
+		9484BC2422073BF5001E835D /* HealthRecordsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthRecordsManager.swift; sourceTree = "<group>"; };
+		9484BC2622073F2D001E835D /* UIViewController+SimpleAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+SimpleAlert.swift"; sourceTree = "<group>"; };
+		9484BC2822074177001E835D /* MedicationStatement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationStatement.swift; sourceTree = "<group>"; };
+		9484BC2A22074421001E835D /* MedStreak.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MedStreak.entitlements; sourceTree = "<group>"; };
+		9484BC2B22074421001E835D /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		9484BC2D220752D3001E835D /* Responses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Responses.swift; sourceTree = "<group>"; };
+		9ED87BC0CD82C04D8FF4E3E0 /* Pods-MedStreak.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedStreak.release.xcconfig"; path = "Pods/Target Support Files/Pods-MedStreak/Pods-MedStreak.release.xcconfig"; sourceTree = "<group>"; };
+		C5545A10D252FC707A3E3897 /* Pods-MedStreakUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedStreakUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MedStreakUITests/Pods-MedStreakUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD1D76820E10444826502836 /* Pods_MedStreakTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedStreakTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1CD4076BB47FA37DCCED4C6 /* Pods-MedStreakTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedStreakTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MedStreakTests/Pods-MedStreakTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94073AC02206365D00885C66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				489F4C5DA59060AC5DA44C31 /* Pods_MedStreak.framework in Frameworks */,
+				9484BC2C22074421001E835D /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94073AD62206366000885C66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75FC3704FF489E94B75B0197 /* Pods_MedStreakTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94073AE12206366000885C66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE1D2259B31DD2E29BF2D71 /* Pods_MedStreakUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		025596838972B8E0FDD704DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F4089DE3B6A59732E008275 /* Pods-MedStreak.debug.xcconfig */,
+				9ED87BC0CD82C04D8FF4E3E0 /* Pods-MedStreak.release.xcconfig */,
+				D1CD4076BB47FA37DCCED4C6 /* Pods-MedStreakTests.debug.xcconfig */,
+				51EADA0E56A6B8AC0102116F /* Pods-MedStreakTests.release.xcconfig */,
+				C5545A10D252FC707A3E3897 /* Pods-MedStreakUITests.debug.xcconfig */,
+				7AE6E9BF2767BB90101E222E /* Pods-MedStreakUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		94073ABA2206365D00885C66 = {
+			isa = PBXGroup;
+			children = (
+				94073AC52206365D00885C66 /* MedStreak */,
+				94073ADC2206366000885C66 /* MedStreakTests */,
+				94073AE72206366000885C66 /* MedStreakUITests */,
+				94073AC42206365D00885C66 /* Products */,
+				025596838972B8E0FDD704DC /* Pods */,
+				C5C3C8B84B6887C895565458 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		94073AC42206365D00885C66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94073AC32206365D00885C66 /* MedStreak.app */,
+				94073AD92206366000885C66 /* MedStreakTests.xctest */,
+				94073AE42206366000885C66 /* MedStreakUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94073AC52206365D00885C66 /* MedStreak */ = {
+			isa = PBXGroup;
+			children = (
+				9484BC2A22074421001E835D /* MedStreak.entitlements */,
+				94073AC62206365D00885C66 /* AppDelegate.swift */,
+				94073B002206433600885C66 /* CarePlanStoreManager.swift */,
+				9484BC2422073BF5001E835D /* HealthRecordsManager.swift */,
+				9484BC1D2206C85F001E835D /* Extensions */,
+				9484BC1A2206B941001E835D /* View Models */,
+				94073B02220648A700885C66 /* Controllers */,
+				94073AFB22063FAE00885C66 /* Models */,
+				94073AF622063E9B00885C66 /* Networking */,
+				94073B0D2206586E00885C66 /* Views */,
+				94073ACC2206365D00885C66 /* Main.storyboard */,
+				94073ACF2206365F00885C66 /* Assets.xcassets */,
+				94073AD12206365F00885C66 /* LaunchScreen.storyboard */,
+				94073AD42206365F00885C66 /* Info.plist */,
+			);
+			path = MedStreak;
+			sourceTree = "<group>";
+		};
+		94073ADC2206366000885C66 /* MedStreakTests */ = {
+			isa = PBXGroup;
+			children = (
+				94073ADD2206366000885C66 /* MedStreakTests.swift */,
+				94073ADF2206366000885C66 /* Info.plist */,
+			);
+			path = MedStreakTests;
+			sourceTree = "<group>";
+		};
+		94073AE72206366000885C66 /* MedStreakUITests */ = {
+			isa = PBXGroup;
+			children = (
+				94073AE82206366000885C66 /* MedStreakUITests.swift */,
+				94073AEA2206366000885C66 /* Info.plist */,
+			);
+			path = MedStreakUITests;
+			sourceTree = "<group>";
+		};
+		94073AF622063E9B00885C66 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				94073AF722063EA500885C66 /* API.swift */,
+				94073AF922063EBF00885C66 /* MedStreakService.swift */,
+				9484BC2D220752D3001E835D /* Responses.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		94073AFB22063FAE00885C66 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				94073B0B2206517300885C66 /* UserManager.swift */,
+				94073AFC22063FB900885C66 /* User.swift */,
+				94073AFE22063FBF00885C66 /* Medication.swift */,
+				9484BC2822074177001E835D /* MedicationStatement.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		94073B02220648A700885C66 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				94073B052206490700885C66 /* CarePlanNavController.swift */,
+				94073B03220648BB00885C66 /* CarePlanViewController.swift */,
+				94073B0722064F7200885C66 /* AdherenceTableViewController.swift */,
+				94073B0922064F8C00885C66 /* ProfileTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		94073B0D2206586E00885C66 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				94073B0E2206588600885C66 /* FriendAdherenceTableViewCell.swift */,
+				9484BC222206D8CD001E835D /* ProfileInfoTableViewCell.swift */,
+				9484BC182206B7FE001E835D /* DayProgressView.swift */,
+				9484BC162206B71B001E835D /* DayProgressView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9484BC1A2206B941001E835D /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				9484BC1B2206B954001E835D /* FriendAdherenceViewModel.swift */,
+				9484BC202206D54F001E835D /* ProfileViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		9484BC1D2206C85F001E835D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9484BC1E2206C869001E835D /* DateComponents+Extension.swift */,
+				9484BC2622073F2D001E835D /* UIViewController+SimpleAlert.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C5C3C8B84B6887C895565458 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9484BC2B22074421001E835D /* HealthKit.framework */,
+				8DE49BCEE18EAEF947A8E0AD /* Pods_MedStreak.framework */,
+				CD1D76820E10444826502836 /* Pods_MedStreakTests.framework */,
+				48E7C9CAF583B8339A39F3CE /* Pods_MedStreakUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94073AC22206365D00885C66 /* MedStreak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94073AED2206366000885C66 /* Build configuration list for PBXNativeTarget "MedStreak" */;
+			buildPhases = (
+				29916D9FBB7A9D10009B22DB /* [CP] Check Pods Manifest.lock */,
+				94073ABF2206365D00885C66 /* Sources */,
+				94073AC02206365D00885C66 /* Frameworks */,
+				94073AC12206365D00885C66 /* Resources */,
+				BDD385E7C863BCE8E0B168A2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MedStreak;
+			productName = MedStreak;
+			productReference = 94073AC32206365D00885C66 /* MedStreak.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94073AD82206366000885C66 /* MedStreakTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94073AF02206366000885C66 /* Build configuration list for PBXNativeTarget "MedStreakTests" */;
+			buildPhases = (
+				EC846AD78578074F1719BB43 /* [CP] Check Pods Manifest.lock */,
+				94073AD52206366000885C66 /* Sources */,
+				94073AD62206366000885C66 /* Frameworks */,
+				94073AD72206366000885C66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94073ADB2206366000885C66 /* PBXTargetDependency */,
+			);
+			name = MedStreakTests;
+			productName = MedStreakTests;
+			productReference = 94073AD92206366000885C66 /* MedStreakTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94073AE32206366000885C66 /* MedStreakUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94073AF32206366000885C66 /* Build configuration list for PBXNativeTarget "MedStreakUITests" */;
+			buildPhases = (
+				F29A6FE8437BAD0663172511 /* [CP] Check Pods Manifest.lock */,
+				94073AE02206366000885C66 /* Sources */,
+				94073AE12206366000885C66 /* Frameworks */,
+				94073AE22206366000885C66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94073AE62206366000885C66 /* PBXTargetDependency */,
+			);
+			name = MedStreakUITests;
+			productName = MedStreakUITests;
+			productReference = 94073AE42206366000885C66 /* MedStreakUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94073ABB2206365D00885C66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Ryan Demo";
+				TargetAttributes = {
+					94073AC22206365D00885C66 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+					94073AD82206366000885C66 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 94073AC22206365D00885C66;
+					};
+					94073AE32206366000885C66 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 94073AC22206365D00885C66;
+					};
+				};
+			};
+			buildConfigurationList = 94073ABE2206365D00885C66 /* Build configuration list for PBXProject "MedStreak" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94073ABA2206365D00885C66;
+			productRefGroup = 94073AC42206365D00885C66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94073AC22206365D00885C66 /* MedStreak */,
+				94073AD82206366000885C66 /* MedStreakTests */,
+				94073AE32206366000885C66 /* MedStreakUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94073AC12206365D00885C66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94073AD32206365F00885C66 /* LaunchScreen.storyboard in Resources */,
+				94073AD02206365F00885C66 /* Assets.xcassets in Resources */,
+				9484BC172206B71B001E835D /* DayProgressView.xib in Resources */,
+				94073ACE2206365D00885C66 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94073AD72206366000885C66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94073AE22206366000885C66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29916D9FBB7A9D10009B22DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MedStreak-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDD385E7C863BCE8E0B168A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MedStreak/Pods-MedStreak-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CareKit/CareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/UICircularProgressRing/UICircularProgressRing.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICircularProgressRing.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MedStreak/Pods-MedStreak-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC846AD78578074F1719BB43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MedStreakTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F29A6FE8437BAD0663172511 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MedStreakUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94073ABF2206365D00885C66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94073B04220648BB00885C66 /* CarePlanViewController.swift in Sources */,
+				9484BC1F2206C869001E835D /* DateComponents+Extension.swift in Sources */,
+				9484BC232206D8CD001E835D /* ProfileInfoTableViewCell.swift in Sources */,
+				9484BC2722073F2D001E835D /* UIViewController+SimpleAlert.swift in Sources */,
+				94073AFF22063FBF00885C66 /* Medication.swift in Sources */,
+				94073B012206433600885C66 /* CarePlanStoreManager.swift in Sources */,
+				94073B0F2206588600885C66 /* FriendAdherenceTableViewCell.swift in Sources */,
+				9484BC2522073BF5001E835D /* HealthRecordsManager.swift in Sources */,
+				9484BC1C2206B954001E835D /* FriendAdherenceViewModel.swift in Sources */,
+				9484BC192206B7FE001E835D /* DayProgressView.swift in Sources */,
+				94073B0822064F7200885C66 /* AdherenceTableViewController.swift in Sources */,
+				94073AFD22063FB900885C66 /* User.swift in Sources */,
+				9484BC2E220752D4001E835D /* Responses.swift in Sources */,
+				94073AFA22063EBF00885C66 /* MedStreakService.swift in Sources */,
+				94073B0A22064F8C00885C66 /* ProfileTableViewController.swift in Sources */,
+				9484BC2922074177001E835D /* MedicationStatement.swift in Sources */,
+				94073B062206490700885C66 /* CarePlanNavController.swift in Sources */,
+				94073AF822063EA500885C66 /* API.swift in Sources */,
+				94073B0C2206517300885C66 /* UserManager.swift in Sources */,
+				9484BC212206D54F001E835D /* ProfileViewModel.swift in Sources */,
+				94073AC72206365D00885C66 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94073AD52206366000885C66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94073ADE2206366000885C66 /* MedStreakTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94073AE02206366000885C66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94073AE92206366000885C66 /* MedStreakUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94073ADB2206366000885C66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94073AC22206365D00885C66 /* MedStreak */;
+			targetProxy = 94073ADA2206366000885C66 /* PBXContainerItemProxy */;
+		};
+		94073AE62206366000885C66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94073AC22206365D00885C66 /* MedStreak */;
+			targetProxy = 94073AE52206366000885C66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94073ACC2206365D00885C66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94073ACD2206365D00885C66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94073AD12206365F00885C66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94073AD22206365F00885C66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94073AEB2206366000885C66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94073AEC2206366000885C66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94073AEE2206366000885C66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F4089DE3B6A59732E008275 /* Pods-MedStreak.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MedStreak/MedStreak.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73W67K6P4E;
+				INFOPLIST_FILE = MedStreak/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RyanDemo.MedStreak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94073AEF2206366000885C66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ED87BC0CD82C04D8FF4E3E0 /* Pods-MedStreak.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MedStreak/MedStreak.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73W67K6P4E;
+				INFOPLIST_FILE = MedStreak/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RyanDemo.MedStreak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		94073AF12206366000885C66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1CD4076BB47FA37DCCED4C6 /* Pods-MedStreakTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73W67K6P4E;
+				INFOPLIST_FILE = MedStreakTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RyanDemo.MedStreakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedStreak.app/MedStreak";
+			};
+			name = Debug;
+		};
+		94073AF22206366000885C66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51EADA0E56A6B8AC0102116F /* Pods-MedStreakTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73W67K6P4E;
+				INFOPLIST_FILE = MedStreakTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RyanDemo.MedStreakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedStreak.app/MedStreak";
+			};
+			name = Release;
+		};
+		94073AF42206366000885C66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5545A10D252FC707A3E3897 /* Pods-MedStreakUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73W67K6P4E;
+				INFOPLIST_FILE = MedStreakUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RyanDemo.MedStreakUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MedStreak;
+			};
+			name = Debug;
+		};
+		94073AF52206366000885C66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AE6E9BF2767BB90101E222E /* Pods-MedStreakUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73W67K6P4E;
+				INFOPLIST_FILE = MedStreakUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RyanDemo.MedStreakUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MedStreak;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94073ABE2206365D00885C66 /* Build configuration list for PBXProject "MedStreak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94073AEB2206366000885C66 /* Debug */,
+				94073AEC2206366000885C66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94073AED2206366000885C66 /* Build configuration list for PBXNativeTarget "MedStreak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94073AEE2206366000885C66 /* Debug */,
+				94073AEF2206366000885C66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94073AF02206366000885C66 /* Build configuration list for PBXNativeTarget "MedStreakTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94073AF12206366000885C66 /* Debug */,
+				94073AF22206366000885C66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94073AF32206366000885C66 /* Build configuration list for PBXNativeTarget "MedStreakUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94073AF42206366000885C66 /* Debug */,
+				94073AF52206366000885C66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94073ABB2206365D00885C66 /* Project object */;
+}

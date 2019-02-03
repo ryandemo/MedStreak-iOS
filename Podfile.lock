@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.8.1)
+  - CareKit (1.2.1)
+  - UICircularProgressRing (4.1.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - CareKit (~> 1.2.1)
+  - UICircularProgressRing
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - CareKit
+    - UICircularProgressRing
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  CareKit: aa0c8a57c1a2d7cfb46ff3981fe1503f02ca302e
+  UICircularProgressRing: 5a32c01f54474571b1e66e8fa050c0f83d6d981b
+
+PODFILE CHECKSUM: 0420f5b1ce95d04cfb5b04e94628505bf4a455ed
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,6 @@
+framework module Pods_MedStreak {
+  umbrella header "Pods-MedStreak-umbrella.h"
+
+  export *
+  module * { export * }
+}

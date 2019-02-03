@@ -1,0 +1,2099 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00D9E9C3BD88159938530E149668A8DE /* OCKPatientWidget.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC0F143E31E246A6EBC466BF14CC658 /* OCKPatientWidget.m */; };
+		032FA838625DAAD78EFADA2B36E6AA8A /* OCKBarSeries.h in Headers */ = {isa = PBXBuildFile; fileRef = FDB0E090255A5EF9494CA2CAF9EC36EE /* OCKBarSeries.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03B62CE02D8CD04B4855752CDD187A9D /* OCKInsightsMessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DCE59640A92E8CF282E3439CF57798 /* OCKInsightsMessageTableViewCell.m */; };
+		0421FDEF67764BA939D1EB078322F3C0 /* OCKCarePlanEventResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 02064B2F63296133824543763EA0F7DD /* OCKCarePlanEventResult.m */; };
+		050CF929F0E232A47B65A49A5E38B3A1 /* OCKPatientWidgetView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4284C31E97D0CB99B0129C66F526FF3 /* OCKPatientWidgetView.m */; };
+		07B6E2A1BD95ADA275AA07AD4BA53C3C /* pl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2CC72794F751BF541ACE4E082B444703 /* pl.lproj */; };
+		08BB82012D9D7313CC3CCFC5B1654922 /* OCKMessageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E969F4151E89422B1E59B412C9907C8 /* OCKMessageItem.m */; };
+		0B88DD411F6012BBE1F29F488AFA0B55 /* OCKConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1915729FA9E0DCD2FAB19EC5544278E7 /* OCKConnectViewController.m */; };
+		0BBC694F2BBBC30A6E7C9BF74869FF28 /* OCKHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = E0FFAE1CCE7414764CA2CB2EE5C88BB4 /* OCKHelpers.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0C861020C4EAD9BB75B3B6CC8FD50D7E /* OCKCarePlanStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DDAD950E86E443DCCA3916B8E59BA /* OCKCarePlanStore.m */; };
+		0CEA8D9574FB3E87DC7D9CAB1200A467 /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 38CD9533E213F69F9414F55F365D893A /* de.lproj */; };
+		0D32C5F8C07761FAA85B3D96CD994904 /* OCKGroupedBarChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EE71EA37C256A97607ACEEC5DA766F /* OCKGroupedBarChartView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10974D06ADC198095A564EAA0199DC37 /* OCKInsightsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87BDDAE46AA15B30A110C1CD3DB5D341 /* OCKInsightsViewController.m */; };
+		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = F573C57A8E0076AF4A2518E146AED2FE /* Timeline.swift */; };
+		1162A3AB7DBD4F2D44AA60BCC0EC453E /* OCKGlyph.m in Sources */ = {isa = PBXBuildFile; fileRef = 50803FA990D0D462212491CAB11A11C4 /* OCKGlyph.m */; };
+		124FF6F09B8A98D088214F812115E934 /* da.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 22976D16C43BB751EB5B280E5B198509 /* da.lproj */; };
+		1374B6E32400E4BF885F76113B458A3A /* OCKContactInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = C830429CBE6D5F90560EA1D1C5655EBD /* OCKContactInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		184924CB443C805E5F6CD7B32E3F617E /* OCKGlyph_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = F9908C685B58820B3935AF94E11DC48C /* OCKGlyph_Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		184BD9ADC482D57C4E99E0618797197E /* OCKReadOnlyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A132C8F2FA11DB0EACF7A6B18D97CC19 /* OCKReadOnlyTableViewCell.m */; };
+		19AA99844A5E457D2EAD05D0F2FF015C /* UICircularProgressRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706FDAC215FFB171C3E86A06481636A4 /* UICircularProgressRing.swift */; };
+		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B86E6E8478BC816F5903B5AE5156FE56 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C5A99DE81E9B0486237CED0A70CF8CB /* OCKConnectTableViewHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 57490497F99EC9FD318E9A9AA2719DD2 /* OCKConnectTableViewHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1FDC36991A8C3E64611A13FC59BD01C5 /* pt_PT.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 958C0065DA8E4ED6D010FB0D13F11B8C /* pt_PT.lproj */; };
+		21B117DE880C278D16AF68B8F1940C0E /* ms.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 4839B17AAFEE3A768A5A85BC7D37D530 /* ms.lproj */; };
+		21C36747FAC900871B8B8F1E48B629F1 /* OCKContactInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE97FF2AA0515BB7DC071CC5670E475 /* OCKContactInfo.m */; };
+		21F130E809338E2136F117E15CF8504B /* OCKHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F058945A74B47382EDFA0AD5F3BA2CF /* OCKHeaderView.m */; };
+		2661EFC8FDE3F750CF200E97A83D7EF0 /* OCKCarePlanStore_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B1E7F46EC548D44081C2ABB04836401C /* OCKCarePlanStore_Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		28DFD053EBF453060123F7CD4CD8455D /* OCKConnectHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8B0A357E8D0A9FA142C88A10E8FF46 /* OCKConnectHeaderView.m */; };
+		2B28C36E0CEA060726DAF3709BF9D787 /* NSDateComponents+CarePlanInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 460668564AF3B80B372D75981A970734 /* NSDateComponents+CarePlanInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2B7A3D093E3E95E9E148035E3421F728 /* id.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 31724A9E6C8A59743C65AC2E15D3459E /* id.lproj */; };
+		2BD5CA517CC1A65A2C69F3BB30701610 /* OCKConnectMessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E947808AE4C752DD65961A0A2927391 /* OCKConnectMessageTableViewCell.m */; };
+		2C991EC2C17FCD8660AD91BB070C7930 /* sk.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D5B7F074579B565FF21C997D1D582BF0 /* sk.lproj */; };
+		2D019AC4EBD53AC1BCA0C9EB2D03375C /* OCKRingItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 16B3E9BB5E03F4A04C217E5FFDF9C38A /* OCKRingItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D0CE3589267D784EF295192C7E6E9D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05EE07B4E0F3AC4F65876113C97A2568 /* Foundation.framework */; };
+		2E676BCB2C50FA3556B699CDA179FA68 /* Pods-MedStreakTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DAFD1FBD464FBFE20BEB004D6E6D5423 /* Pods-MedStreakTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F8877E533061492C47EAF9ED9EBC169 /* OCKCareCardButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 18B45DF6AF04393BD7065A676EEF36ED /* OCKCareCardButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2FD2517B1CF6AA2FF5AE7E58CF32006E /* hu.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E65A8DBE4AECF371F4CC20B4F0E12ACC /* hu.lproj */; };
+		30535C1B1CAD55D0DEE3AE098EC08746 /* OCKCareCardAdditionalInfoTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 62DFFC4924C01F9D1FEA4D537BB4F504 /* OCKCareCardAdditionalInfoTableViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		31DF8F4804173B51C049990EA640824A /* OCKInsightsRingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 20722AF116BF1CAFBF3608E89344B43E /* OCKInsightsRingTableViewCell.m */; };
+		355B3AA3F3D1098012FA1FEC4F267E3A /* ru.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 435964DDA66163FC3371FB41231EAEAE /* ru.lproj */; };
+		360904A21EB9C178A06EC31E02652173 /* OCKPatientHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C9C872936F8CDD433B342A559629B8 /* OCKPatientHeaderView.m */; };
+		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E4860EEB06DF736CC0B54E13463120 /* TaskDelegate.swift */; };
+		36D8AC390E09F3E2428DC9F01D8CB615 /* OCKPatient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B70BE59AD0460571C0A8FE957BBA4D2 /* OCKPatient.m */; };
+		383A57D7A78CF39A3F19646722433BEF /* UICircularProgressRingGradientPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4DD020C485A6E11142B4BD0E27BFAF /* UICircularProgressRingGradientPosition.swift */; };
+		39680D80ABA025729F853CFB7A9F999E /* OCKCareCardTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 9087DDFDA5A01FE085D87C1AD47861F3 /* OCKCareCardTableViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		39E949EE36230F86A039CCEC291165A5 /* OCKConnectDetailViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FE2E8B4D0996221EFB65E2C3A5731594 /* OCKConnectDetailViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3AB15E88AFFAE493B750AC0FA0011076 /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B711DB9B91D6C109B95E5A4B09E87BFE /* es.lproj */; };
+		3BBAC5C7D75A6B1EBA7C9EC1F74F5888 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05EE07B4E0F3AC4F65876113C97A2568 /* Foundation.framework */; };
+		3C0D139625C65A72435B60F3F3EA04E5 /* UICircularProgressRing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CBD7952A652F7876A8A079DA446F45 /* UICircularProgressRing-dummy.m */; };
+		3E399E3AC64C6CAE7F9DC0072D0C8A05 /* OCKConnectTableViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2F89910388802ACFD363D9B596F9DE /* OCKConnectTableViewHeader.m */; };
+		3F9D3D05C86E75A8BED7E45589BE81B8 /* OCKSymptomTrackerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DA5FC4C291D5266390F08FA140CAA48E /* OCKSymptomTrackerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41B018ED7FB84191DA50EC1A45D2C852 /* it.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 90F6F06F38146E65E08CB943435C4812 /* it.lproj */; };
+		42EAC2847D223AA3CB062532A7C5447C /* OCKConnectTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A77C06F41C3751A4E135A20740E06CB /* OCKConnectTableViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4368960A0F264EE3BC23C468EF22B63A /* OCKLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = BC2ACA17A3E3ED62B830522002B8D94A /* OCKLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		447FCA7517257A0923D862C4F9D2686E /* Pods-MedStreak-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85658AFD048AD8A57A54533A8FEE03ED /* Pods-MedStreak-dummy.m */; };
+		44B528D7B0C169F64AB4CD61FC556DF9 /* UICircularProgressRingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9726430ACE377DFA5C263F9A3A34B297 /* UICircularProgressRingLayer.swift */; };
+		4510F4F52E3FDCE4B3E57E76573346B7 /* OCKCareSchedule.h in Headers */ = {isa = PBXBuildFile; fileRef = 1439C5A7992ED5FE61E1C7B992024E26 /* OCKCareSchedule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4549D57D84081C948859A536EA9E5B6F /* OCKContactInfoTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 49ED70B79F12006332984BDAC24ED37D /* OCKContactInfoTableViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46960280379DB8F91C58F8561A048EE8 /* OCKCareContentsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AB083C2B2C516C7DD5819F1BAD84173A /* OCKCareContentsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		479C3E6715916CC30563B970E7853ADB /* tr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 8879645663BBD7E11E9B53D619A933BA /* tr.lproj */; };
+		48F7053A2E3422385CA29F37278AC1D8 /* OCKBadgePatientWidgetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E3F1A98CD3DD403DCCBADEB49DC3B1 /* OCKBadgePatientWidgetView.m */; };
+		4A1EECB36FA2ADE6688C5C22FF13223F /* OCKSymptomTrackerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFFA836AB5BBE56AF81AA44CD80129A /* OCKSymptomTrackerViewController.m */; };
+		4B8034A05AB9F2B7195FE3EFB69A3B6E /* OCKCarePlanActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA48E759A70E8ACADB55331FD6E8A73 /* OCKCarePlanActivity.m */; };
+		4CC4FFB7329281AAC0BC4DB11A052EC4 /* OCKWeekLabelsView.m in Sources */ = {isa = PBXBuildFile; fileRef = E364AF3F402D1C9F7C904FEE341EAA15 /* OCKWeekLabelsView.m */; };
+		4E34FB74A4879C322FAED323230EDFC7 /* OCKInsightsRingTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AADB033B08A9543D6311E22BC7D6DD4 /* OCKInsightsRingTableViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5183515DBD31823DC3BBBC1950BF222D /* CareKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F2A631D171E5CD00CD50D6A7CDC5C3 /* CareKit-dummy.m */; };
+		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879DE399AEF54113CC78EEB2783C327E /* Request.swift */; };
+		53AC10386A7D7D69C99490E4441DF110 /* NSDateComponents+CarePlan.h in Headers */ = {isa = PBXBuildFile; fileRef = 674D72CA5463AA4C0238569EA6E8E5C8 /* NSDateComponents+CarePlan.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		543CE19F76ED37FE9B4089A0DFD7FEB4 /* OCKChart.h in Headers */ = {isa = PBXBuildFile; fileRef = 904B5BCCBFE902E14BEEFF54A6101FC4 /* OCKChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55451AEFAF744A57752FB8FD7EBA7C6A /* OCKDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 205BD13F205D169847E12C73FEE4C7E8 /* OCKDocument.m */; };
+		582584693CFE51E59CB3637868BF06F0 /* OCKCarePlanEventResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 09430ED8868421A0E27B6556AF156D3C /* OCKCarePlanEventResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58DF554E959E15C0666737447BC71F37 /* fr_CA.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D66194F737F66728E33D2DB64179B3E4 /* fr_CA.lproj */; };
+		5A12FA5AB61277F9A7DD04955444C504 /* OCKInsightsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CAAEE2C011A60B83FBE93AC267A2E19A /* OCKInsightsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B9E2696E72423EB2FCBE0576704981A /* OCKContactSharingTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 603F3AF704AE8EFD66D0D87B0681C2CE /* OCKContactSharingTableViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5CA704B0CF52CA05A7D3AC02B8523B09 /* OCKConnectMessageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 480199A53FFA8B1FDA048FDC905A0028 /* OCKConnectMessageItem.m */; };
+		5F3BFB4C79B5E3CD64544C5875BEBF03 /* Pods-MedStreak-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53EDDD66A2994225769F704290B5F420 /* Pods-MedStreak-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F6948728C15149575F775645A1C470C /* OCKHTMLPDFWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D83376FA4ADC1DE35EEC52979A64520 /* OCKHTMLPDFWriter.m */; };
+		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A866F682433411FBDFB8C9C06001599 /* DispatchQueue+Alamofire.swift */; };
+		62643F83E9868699952380E1888181B7 /* OCKContact.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F3EB8BCFE36ACC21680CC93DF7C2CF /* OCKContact.m */; };
+		62AC40FAED79F50B856C16831823C07C /* OCKCareCardInstructionsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB9CA9BC991D51C0E83CCB2EB48F608 /* OCKCareCardInstructionsTableViewCell.m */; };
+		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3100D0EE4A0E5C7CBB8E9F2F9458BD94 /* ServerTrustPolicy.swift */; };
+		64C396B50A763A6BBA88B4F203502C63 /* es_MX.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E6A41EB6E9C8240B03BFF89B860BFF71 /* es_MX.lproj */; };
+		6641D46F69A13732350B9582A8489205 /* OCKBadgePatientWidgetView.h in Headers */ = {isa = PBXBuildFile; fileRef = FA22D6020641B5E90AAD28C124AAB058 /* OCKBadgePatientWidgetView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		67AAA3B3497B65F768C533F4EE07B429 /* OCKCareContentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6550862D310D4A074BFCF870D6516601 /* OCKCareContentsViewController.m */; };
+		681A638AFF7AC94CFEEF9E3D180E54F5 /* OCKWeekViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AF1D1DB8A5BDE29520EEE683E384AF11 /* OCKWeekViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6981454227B675D6665C75D0D0FB0557 /* OCKCareSchedule_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B8BE938F4704AB29AEE00DF39BB82BAA /* OCKCareSchedule_Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		698EEAC080278852AFCE81846294407C /* OCKCareCardDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B95E2F460999C5998EA1314871F905 /* OCKCareCardDetailViewController.m */; };
+		6B6B42F5EE1FD0275CDE07DBBA9368A2 /* OCKCareCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7145C3F896EC02B11788C860A42DED36 /* OCKCareCardViewController.m */; };
+		6CF7ABA6E78A85D511E7EE26EC23E26D /* hr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F33984029150F4EEBC183F3913319E1E /* hr.lproj */; };
+		6CFD169A23386546AFF31160DB8EB0E4 /* OCKStackedPatientWidgetView.h in Headers */ = {isa = PBXBuildFile; fileRef = 457C3C46698288F1D5C2EE6751DE3053 /* OCKStackedPatientWidgetView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6D965644F26CB932D3EFF472CB6D8676 /* ja.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 7FB1FE47074A8BE4EB3463F760F6F008 /* ja.lproj */; };
+		72AD9E5A81DA6C84DCF701CFC8FB44C4 /* OCKConnectMessageTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 42C1F4036F29EB871B85372D487533A8 /* OCKConnectMessageTableViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05EE07B4E0F3AC4F65876113C97A2568 /* Foundation.framework */; };
+		748C3668498FF50EFCA3F2B59FF002CF /* OCKCarePlanActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 27F3DC3BE242D144AD396573053A700B /* OCKCarePlanActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76C3FF60D87A0A86324EDD8C61D33098 /* OCKConnectMessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7B24BB43415AEE766CC3E8280A4CE8 /* OCKConnectMessagesViewController.m */; };
+		77FE8F34E29A6D48CF1DA1AB019237B5 /* OCKMessageItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CFB4FA342ADCE26622FC151C2035876 /* OCKMessageItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78B7D8E46D8E8F9AE01C156138BDC373 /* ca.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 5038EA805F1A71BFEB28288443A646F6 /* ca.lproj */; };
+		79B8E6232F98E9DCE9D4F7136BF1D383 /* OCKRingButton.h in Headers */ = {isa = PBXBuildFile; fileRef = DE1C2BAAF2D5A554EE23CAA764B58C33 /* OCKRingButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7AE53AFD7DCFFDD5E96ED2F49A306EA4 /* ko.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2B733DF76AC7FA7778E30D63201B12BB /* ko.lproj */; };
+		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8456DFE4A6CCCF8FF3159D855F70FD0F /* SessionDelegate.swift */; };
+		7C1F7B49605861D7BBCE3420B1F19C97 /* OCKDefaultPatientWidgetView.h in Headers */ = {isa = PBXBuildFile; fileRef = DC8CD4F40ED14295A80E4716B8191872 /* OCKDefaultPatientWidgetView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7DB9B4D1B10D8526BD8A51EBEE11F1 /* Result.swift */; };
+		7E02EAEFAAED86D153B747DBB7A8EAE2 /* OCKDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B258EEAAEB6FE25746EF42FD5262065 /* OCKDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E403B16121E5283523B043A9E999294 /* UICircularProgressRing.h in Headers */ = {isa = PBXBuildFile; fileRef = D4E8E228BB7C751A24E3716A2F55497D /* UICircularProgressRing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		805F6CA057A8B893F7AF809B0830AC3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05EE07B4E0F3AC4F65876113C97A2568 /* Foundation.framework */; };
+		81D5F3571DEE99A578AE32F769A92E90 /* OCKCareCardButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0C31BD5405710AD1A1F09A3A1B06FD /* OCKCareCardButton.m */; };
+		82B3D43374A461F67A2AB93B7A06CEA3 /* OCKConnectViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DA3DDBC5BDBE07D796BA60C505A65EA /* OCKConnectViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8358D66BA7FD6905F6A31FC0882582FA /* he.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 4FC19F6CD9D5FCFFA6026C64D8F91F11 /* he.lproj */; };
+		835C0B0DCEF007298C37F9BD19B6A3E6 /* OCKConnectTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B2CC49C55F8B6EC1C1D6C440B7E66E /* OCKConnectTableViewCell.m */; };
+		84940312969D58F900D9832FD42C066B /* OCKBarSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = 814F146F2D72DB57F3943DEFF64AD257 /* OCKBarSeries.m */; };
+		8631935F0D6E27EB4B132F1B35667EE6 /* OCKPatient.h in Headers */ = {isa = PBXBuildFile; fileRef = B08D16B616F9CC172DC50F4D44788535 /* OCKPatient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		876D3EFF687497651A266B0FAF7225DC /* OCKWeekViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9ECE4B8B6D881BAA26439FFF102D98 /* OCKWeekViewController.m */; };
+		87B3FCA3F59CA5068F6A7102D6BFE215 /* OCKConnectDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB99C41ADE7D258F90601E8F19979DC /* OCKConnectDetailViewController.m */; };
+		898D0617D02FD5298424E47019262615 /* OCKColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F6106E358C60E4C3748BB458C326FF59 /* OCKColor.m */; };
+		8A64F43D79100128B757BF1869EFA6F0 /* OCKGroupedBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7E9D8BD7E57EA4373C9C257847C4F7 /* OCKGroupedBarChartView.m */; };
+		8C9771C04D9BF38F07E1B129672C89B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05EE07B4E0F3AC4F65876113C97A2568 /* Foundation.framework */; };
+		8CF8604EBD2A13172889DCF7295F4A5C /* OCKConnectHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 92A80A3F06753783473FE8C6364BB48B /* OCKConnectHeaderView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8E23010761B5AD9565FEACE02ABA4E14 /* nb.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 4BE092E7D9824D8AA3654A190331A0A6 /* nb.lproj */; };
+		904A79A2E760C9011982729DF5FE8F79 /* Pods-MedStreakTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53295A301822E377AE8ABD9A036637E3 /* Pods-MedStreakTests-dummy.m */; };
+		905953DA73EBCCDA04FC94CB5D9A1DA2 /* el.lproj in Resources */ = {isa = PBXBuildFile; fileRef = EB13E38EC6B7A1ED86E4462BD7F94A28 /* el.lproj */; };
+		90B1FA785F43CD57A07788F56C60AF51 /* zh_HK.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 0844610B9E55525F8FF1FC050DE85976 /* zh_HK.lproj */; };
+		90B2484DA24094074B038CBCCB2BF19C /* OCKCarePlanEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A49FBB094DCBA5CD229D779F3E8E045 /* OCKCarePlanEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		914B3CC9C4EC37744DB7A05F9F23CD01 /* OCKInsightsTableViewHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C47A3EA53AE4E7E3E91CAC1410071D7 /* OCKInsightsTableViewHeaderView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		91F3B9052AB2BAAC0035D91E35A1FE88 /* OCKWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5741E14CAA02BAB3300C519B426BD27 /* OCKWeekView.m */; };
+		930ED6C6A6EF7665C753A4FAD68390AD /* OCKCareCardDetailViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E6B1CF06EF29A3C3B129630855B2E83 /* OCKCareCardDetailViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93BF4EA5EC10E0589122029D7211323B /* OCKCarePlanStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 88E8C9D1972D462883832549FF0241BB /* OCKCarePlanStore.xcdatamodeld */; };
+		94A5559E9CEE5EFAED52DA72F17B3202 /* UICircularProgressRing-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 922719B7AEBC0C488DE03DB2317A1485 /* UICircularProgressRing-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94B1B89E7F2B233383E8972CCD15EB18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05EE07B4E0F3AC4F65876113C97A2568 /* Foundation.framework */; };
+		95DE5B6AFC5DED25B4F083C559B962D8 /* OCKInsightItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 01191BDD6E6473C95EE43DD39ABAFE06 /* OCKInsightItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B69123BE56D7E84C5EB0BECB4E4B1C4 /* zh_TW.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E829F35837C77D2BA397CF5355CBA96A /* zh_TW.lproj */; };
+		9CB6320378DC96D0663A9C7C52BB7EB3 /* en_GB.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 913913CE274AB3E22D838023EA8DD1AB /* en_GB.lproj */; };
+		9E6DA314BB726935CEDB4562DA002C92 /* OCKCarePlanEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4570302DFD7B76466AEA443A725D95DF /* OCKCarePlanEvent.m */; };
+		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51EA7DE4F34DB9C7B92543B45906897 /* AFError.swift */; };
+		9EFD0A9E955BE1A005061A59E8474F44 /* OCKChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 9237131A888F2BC297E1AAC560C107AA /* OCKChart.m */; };
+		9F929149AA287614470F4E4BFDF54A7D /* OCKRingButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B93C27FA1B8F4C59FDB8B6CA1309F329 /* OCKRingButton.m */; };
+		A0A4F7D5A37BF90C1311AB56EFD31AFB /* OCKConnectMessagesViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 278B6F098FBB28BDAB9D68D0006F8CFB /* OCKConnectMessagesViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A0F1851BE6B98C2CF8E2D89E7D56AA94 /* OCKCareCardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C37D81A259BE11D47CD7767F0C18FE /* OCKCareCardTableViewCell.m */; };
+		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF6B5B5D6A17B7428256A97794CF1A0 /* NetworkReachabilityManager.swift */; };
+		A6AFA8E738AA4F1994A0C014BA635FD0 /* OCKTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9C7E591F320599500F59DC85E97FBA /* OCKTextView.m */; };
+		A776A6F3E9DD9FD1164CEAEAD1BB61BA /* Pods-MedStreakUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BC49F6411C5C4B2C99895F3CD5FC8C /* Pods-MedStreakUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A909B98D5B1CC834208210ECEDD37D3D /* OCKPatientWidget_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 31EB8EADA44F14C43CEA7377BEE4B181 /* OCKPatientWidget_Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A9ED0F67124BBF207EB129379ADAC344 /* NSDateComponents+CarePlan.m in Sources */ = {isa = PBXBuildFile; fileRef = 59EAADEEA023895AD3C03840569E03A9 /* NSDateComponents+CarePlan.m */; };
+		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19BAF2F3D6E68853D113D57440B4F23E /* Alamofire-dummy.m */; };
+		AAC81CBC0C0363261A1BD09086146F60 /* cs.lproj in Resources */ = {isa = PBXBuildFile; fileRef = DD140816C30B684DB55464C21B22D291 /* cs.lproj */; };
+		AB66CB1AC3AAFF87DAA4A90841E0AB9D /* es_419.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D73B4302A5B911214320DE0C60B51E19 /* es_419.lproj */; };
+		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960C64E1C868F7E534544C08A2418790 /* SessionManager.swift */; };
+		AF6293A6F71CA1368B3ADF2B2A9F5808 /* no.lproj in Resources */ = {isa = PBXBuildFile; fileRef = FBB26D8F796D630C10E2568A6E02C38F /* no.lproj */; };
+		B2DCACAF521522B2E5C7DFFB3A5F5DA8 /* CareKit_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B6805CF2CBAD9DDA5E849EAF6C04B8E /* CareKit_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B3EED6688C246B3AB942CEFB9FB35449 /* OCKStackedPatientWidgetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA3B0B0D0D3A283BFA810CC44C323A /* OCKStackedPatientWidgetView.m */; };
+		B42685ACA843D34992FEF4C23A1E7D24 /* OCKPatientWidgetView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C6394A903C95CEAB4191A04021E576E /* OCKPatientWidgetView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B496560322BF3ADFE86EB15CF4AAFD53 /* OCKReadOnlyTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3D3C9786B43664610867EBB8469F2B /* OCKReadOnlyTableViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B53FEEBD184A4EDBF5E5190A44DCDEEA /* OCKPatientWidget.h in Headers */ = {isa = PBXBuildFile; fileRef = E1997A75C704C749F7F8534A468BB552 /* OCKPatientWidget.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5FEC45E2CA6852BB0A66655A93ED5BC /* pt.lproj in Resources */ = {isa = PBXBuildFile; fileRef = FE9C8D790F637FD1B54FC18A351EB267 /* pt.lproj */; };
+		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B125471D8DBFC2B7D74B47FDC5ED1A /* MultipartFormData.swift */; };
+		B68E49C875D588250E3D6AFA07C5A55C /* OCKCareCardInstructionsTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A2FC01A0FA5EE6A84225D6D2330D5EE /* OCKCareCardInstructionsTableViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B6E09F4841ECB703231808E307FD54DA /* hi.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2862BF1EFC9DFCD437506BB76CE10950 /* hi.lproj */; };
+		B6FF1D23D8D8BEFF8F1E20DDEDC96646 /* OCKSymptomTrackerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA9B5CCD60FCFDCCDA8C4BF3C20C10A /* OCKSymptomTrackerTableViewCell.m */; };
+		B863F01696F363719E017C92195565D0 /* OCKHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 63E2C792D5D1569C524E83AB3421E42B /* OCKHeaderView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B87A24E1E090A7D710BFAEE24C9DC2B1 /* UICircularProgressRingStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF301C1688C2E3566AE8FFD41E5DF7 /* UICircularProgressRingStyle.swift */; };
+		BB7FFB9FA2FFBDC97284FB5BE995B5B4 /* uk.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 852813020865E75D9B6D6069768C5324 /* uk.lproj */; };
+		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8DA24046798F1F329E256217B4B08E /* Validation.swift */; };
+		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A4DB23F0227B09F5FC7FAADED5A6D4 /* ParameterEncoding.swift */; };
+		C0042EDB2AD212D15A0D0C1B9766450C /* zh_CN.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 4DA1B061DDF13C0BD5F38E9FA6F5C046 /* zh_CN.lproj */; };
+		C15BC712843B14E219C045B54EFDEC21 /* OCKDefaultPatientWidgetView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE240F60B21903E7537BD1BBD1CD27DD /* OCKDefaultPatientWidgetView.m */; };
+		C3B1CC4312A8D336C89BD5C544D4ABD9 /* OCKInsightItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC25C86B77AA84B0AD980BD6584AC62 /* OCKInsightItem.m */; };
+		C409F0932C67248309A5A97ED372DFC2 /* OCKWeekLabelsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7709E4A25CE5BA62A24980CA7B27B083 /* OCKWeekLabelsView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C64A4A05B65CB12ED48289668E6F412B /* OCKCareSchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C2A169318BD601EA79615374189C2F /* OCKCareSchedule.m */; };
+		C91BC860F9D73DF49FFABF59A606682B /* OCKInsightsChartTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8709FFB4803F7F3F861D408A8BA87C51 /* OCKInsightsChartTableViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C934BF88EB6784CBD11DBCEF936D6D8A /* UICircularProgressRingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF006F9827E7D82C99AD603EAA0EA36A /* UICircularProgressRingDelegate.swift */; };
+		CAB4C49B482C49763F4F245FAC4ED86C /* OCKCareCardDetailHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFCD846B8563EE8812BBCA4A21AE166 /* OCKCareCardDetailHeaderView.m */; };
+		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113DFCBA7C2AB9F4857FE3FA810F07EF /* Response.swift */; };
+		CD208484F36BE7282000A9E1F36B81E4 /* th.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2C9F06C3E6F7FD973144C4842A1C58BB /* th.lproj */; };
+		CE3C598BACC38AA831693D309460C6CB /* OCKDefines_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 8208D03FD957A34F0C083E6F3EBC1D22 /* OCKDefines_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CED9F49FDAB9275580B3FB7C27B56FB9 /* OCKTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 580F078CCF1958971FF65DCD715E0B57 /* OCKTextView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CF4C54CB4F61E4C73168779262183975 /* Pods-MedStreakUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D8E7EF3C0C87F5CE7A32F7B6D8C3C0 /* Pods-MedStreakUITests-dummy.m */; };
+		CFEB7237BA3D75EA5FF7611D10EDA53A /* OCKCareCardViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 274ED197082EBD5BA44EE45AF0B3314E /* OCKCareCardViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D033C69C525EE563DD9AE89EA2FFB1D0 /* OCKContactSharingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 61338424D2EDE3DD0D33A3A567E27B01 /* OCKContactSharingTableViewCell.m */; };
+		D11EDB629F9AACA2DD4546828A02742C /* OCKInsightsChartTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 783F265A5CDE8B339FEBBA28B252D015 /* OCKInsightsChartTableViewCell.m */; };
+		D11FB20ADFE74636FAC83DDDAFCEF14E /* OCKImagePatientWidgetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5A9FFA57440DA725E6E32C49852282 /* OCKImagePatientWidgetView.m */; };
+		D2FFD17A75799FCEA7E649E5C0571E3F /* sv.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 9EFA0EBAC4F3042A8F8FEFF6050EABEB /* sv.lproj */; };
+		D32074C16625C551C4901EB6A423DBDD /* OCKContactInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D39C3A4CC71A2D35C745F291E0BFCC /* OCKContactInfoTableViewCell.m */; };
+		D4078509D5BC459DF7AF7989549EE5DE /* OCKImagePatientWidgetView.h in Headers */ = {isa = PBXBuildFile; fileRef = E8DE69EA8927AB3CBC873A05FF2D16EC /* OCKImagePatientWidgetView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D47626C17897A4683CB17C4A0329A38A /* OCKCareSchedule_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F03A9969F59298599B557E993114CE1 /* OCKCareSchedule_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D689D1449F731D56B243273E235FB00F /* OCKDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CF297ADB6790B2AAAB9952E3DF99937 /* OCKDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D69165876105E1D6CA3251793A428FD2 /* OCKRingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F9308C82BBBB6E49EC83319AD2B98FD /* OCKRingView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D6BF83CEBC9E41644F435704C078E0E1 /* OCKInsightsTableViewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A031BA5CEE09F02CBC5FC354C9E3BB4 /* OCKInsightsTableViewHeaderView.m */; };
+		D8FE3B1F545D2CCDA760369CC5FE81AA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 078489CC50547192FFA29C47BA0E3A50 /* CoreData.framework */; };
+		DAD6C8772D5892054B8C33BF9A9DB5D0 /* OCKGlyph.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD2D2D08874B877DACB7C725727A5F2 /* OCKGlyph.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB99FD2EA0B0F0D4115F49DA4F20733C /* vi.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 23B9BDA64ED93429E8F2E8506789BDB8 /* vi.lproj */; };
+		DD77E000CA2BEB961063AB0F083B9249 /* OCKCarePlanThreshold.h in Headers */ = {isa = PBXBuildFile; fileRef = 28B0D2D612729B2350736369CE044754 /* OCKCarePlanThreshold.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E17C0F9FF99240A287FB0B1C4BCF12F4 /* OCKInsightsMessageTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D70361AD3F5286EF1BF4CA72A22D51 /* OCKInsightsMessageTableViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E27BA0362434D290E945F65C8D08A1D2 /* OCKWeekView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F1DE6FA10FEE68B120B5FF3E5FC94C7 /* OCKWeekView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E2C4B33A4BD4081F12DB70E7AB9AB301 /* ar.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D1630E363BD21BCB8C3F4D4A62F766A6 /* ar.lproj */; };
+		E3E097E2E04BB6CECCF16E34D57BCCAE /* OCKTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 29AE23DFDC2E47CDF464843F9A019F70 /* OCKTableViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E3E2610032946F2ECED63CD4F50965FD /* CareKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 146AA59950DAEF743C06E63029B75663 /* CareKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E45007533BB25C08CEAE6A7131679460 /* en_AU.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B4C0248461B3BEFFFC0EC49AB62C4B92 /* en_AU.lproj */; };
+		E5E27EF217D5C93FA80326F5B9E72B44 /* fi.lproj in Resources */ = {isa = PBXBuildFile; fileRef = A2163B4CABF03BD087C382DD947A73E5 /* fi.lproj */; };
+		E829E57FE063242CF50199DB15E85870 /* OCKCarePlanActivity_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = E2319FAF81A56BE609782FD30A20585B /* OCKCarePlanActivity_Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E8FFF60032A9A10AE0575FF776FE8447 /* OCKConnectMessageItem.h in Headers */ = {isa = PBXBuildFile; fileRef = E05F65836A94128AD6290A356F1E3BB4 /* OCKConnectMessageItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E99D2A7605B2F1D94E708B9FA62E45A2 /* OCKCareCardAdditionalInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDB42DB1303AC1046DA3DED5E46B01C /* OCKCareCardAdditionalInfoTableViewCell.m */; };
+		EB53EC9009FD75E0AFF0B899D7FF2344 /* OCKRingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C0B0BE49FC6FA402619F61BF166CD9 /* OCKRingItem.m */; };
+		EDEEA620EFD5B838FD16FD59ECFD968A /* OCKCareCardDetailHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CE3F8EEDC4EFD5576CD9F0C2871A3CC /* OCKCareCardDetailHeaderView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EEEAD9850F795F98FA92B4746B6120A7 /* OCKHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 636CBB801086A1C47CC2FC39696B7224 /* OCKHelpers.m */; };
+		EEF644784B3185C351477723DD20AF2B /* OCKSymptomTrackerTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = B9669ABF2D1632F8285A8D5E03464F2E /* OCKSymptomTrackerTableViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EF4465FEEAA8C108A6127BCAA2108C50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E940060DAE436E5D1448052D3271856 /* Assets.xcassets */; };
+		EF638CE65835BD528C13415C78E166C9 /* OCKHTMLPDFWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A1E79EAFCF3178C82A3C264FDEF2D49 /* OCKHTMLPDFWriter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118EB66FA7051E7DBFFC8490746D2721 /* Notifications.swift */; };
+		F099FC0C5B0AF506A9C7136240D9AE25 /* OCKLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 770B55126C85EF266712AC7C600ECAF8 /* OCKLabel.m */; };
+		F0A237525BCDD7C2CD8260925F584692 /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 96AF4AF1E66B2EF3E77C88723663849E /* fr.lproj */; };
+		F0BBCE40D1E46470B687F2C2F6481519 /* OCKBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F47EE1CD8BB1187B458EF6B62D68A39 /* OCKBarChart.m */; };
+		F2E20C470B74A8834D80F264F838A9CF /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2F3C31189ED03F9A898D42F1FAB89F /* HealthKit.framework */; };
+		F3ACAE0F3E9B96D84CE7D9BD9AF7E8B9 /* OCKContact.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FD9127F4B0C1BC4782F1A1CD4D92AB3 /* OCKContact.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F46CE95B650A2C9802E409E2ABAADE62 /* OCKCarePlanStore.h in Headers */ = {isa = PBXBuildFile; fileRef = AB1CE0E0143F06352C43CBC1B39F574E /* OCKCarePlanStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F51E38B2C9BA29EC16743C0C85A3330F /* ro.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2076C9A6B7FB21ECE8CA0B0A2E4A11FB /* ro.lproj */; };
+		F5F30AE31A7F0108D8749E34E589773F /* OCKBarChart.h in Headers */ = {isa = PBXBuildFile; fileRef = 262163E3C2D6E5203D4CC26232528F9E /* OCKBarChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F67F6493C226289A40F4F5ED4EEB16E2 /* OCKPatientHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = F6E4F207BF060778A98040F3169FA358 /* OCKPatientHeaderView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCDED85923A9C6EB670111B5BD86392 /* ResponseSerialization.swift */; };
+		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581332D1FC307008B1DE93B03B0F45DC /* Alamofire.swift */; };
+		FA12645070A374F8E9C88EEE9E86670C /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 53D0B4D9F55AD2A5E3517BEAC380F0E1 /* en.lproj */; };
+		FBF39224814F50AA07DEFF4739B80FDA /* OCKCarePlanEvent_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = F7D5F6F6ECC3690CB459CFC21C91E1BE /* OCKCarePlanEvent_Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FC2EEC78C38E02FFAF639890B16D73CD /* nl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C82BC9DCE6B481F5966E62C18BBD88CE /* nl.lproj */; };
+		FC59D84E82EF457A9B6DCEB88583ED27 /* OCKColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B59110C7C6888210422DF2A5079AE23 /* OCKColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD74911E266B99FF01F4466291A478C9 /* OCKCarePlanEventResult_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 16FA91ACBE40161CEC6079869CD0C91A /* OCKCarePlanEventResult_Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FE2FB597E1EDCC4210A6EB38DF6E8827 /* OCKTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D365CD94D99F1E86C55B5838AD764F1 /* OCKTableViewCell.m */; };
+		FE9C98FB4D719FC83C03EB9488EE8E33 /* OCKCarePlanThreshold.m in Sources */ = {isa = PBXBuildFile; fileRef = C031B39DDE6910FF0636114E3910C768 /* OCKCarePlanThreshold.m */; };
+		FFC4B016027B209A527E942403CC689A /* OCKRingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 571028BDB6B6E991156B4D264F89DEE7 /* OCKRingView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A7A115724CFF5F437F336516BD45F6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8171E9BFA35235614ECF41B3430FFAA5;
+			remoteInfo = "Pods-MedStreak";
+		};
+		6C2ED9059808D20BC1A85827F06849E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8171E9BFA35235614ECF41B3430FFAA5;
+			remoteInfo = "Pods-MedStreak";
+		};
+		922D9380F628821C50608B1EA0B08BFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B2C803AECF0C5BAABE2742E8B7EADC8;
+			remoteInfo = CareKit;
+		};
+		AD73A88815DCCFA592ABFF122839C625 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4FFF3E720D4B680B03DE7DA3B2D8EE9;
+			remoteInfo = UICircularProgressRing;
+		};
+		D1D66AFF794072EE04E501B3792702A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
+			remoteInfo = Alamofire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01191BDD6E6473C95EE43DD39ABAFE06 /* OCKInsightItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKInsightItem.h; path = CareKit/Insights/OCKInsightItem.h; sourceTree = "<group>"; };
+		02064B2F63296133824543763EA0F7DD /* OCKCarePlanEventResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKCarePlanEventResult.m; path = CareKit/CarePlan/OCKCarePlanEventResult.m; sourceTree = "<group>"; };
+		05EE07B4E0F3AC4F65876113C97A2568 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		078489CC50547192FFA29C47BA0E3A50 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		084205123B1739BF01C3CFD95084516D /* Pods-MedStreakTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MedStreakTests-resources.sh"; sourceTree = "<group>"; };
+		0844610B9E55525F8FF1FC050DE85976 /* zh_HK.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = zh_HK.lproj; path = CareKit/Localization/zh_HK.lproj; sourceTree = "<group>"; };
+		09430ED8868421A0E27B6556AF156D3C /* OCKCarePlanEventResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKCarePlanEventResult.h; path = CareKit/CarePlan/OCKCarePlanEventResult.h; sourceTree = "<group>"; };
+		09F2A631D171E5CD00CD50D6A7CDC5C3 /* CareKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CareKit-dummy.m"; sourceTree = "<group>"; };
+		0A198CDB8F5CE3F84DE4A8AEBF5D21BE /* Pods-MedStreak-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MedStreak-frameworks.sh"; sourceTree = "<group>"; };
+		0A4DD020C485A6E11142B4BD0E27BFAF /* UICircularProgressRingGradientPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICircularProgressRingGradientPosition.swift; path = src/UICircularProgressRing/UICircularProgressRingGradientPosition.swift; sourceTree = "<group>"; };
+		0A866F682433411FBDFB8C9C06001599 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		0C47A3EA53AE4E7E3E91CAC1410071D7 /* OCKInsightsTableViewHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKInsightsTableViewHeaderView.h; path = CareKit/Insights/OCKInsightsTableViewHeaderView.h; sourceTree = "<group>"; };
+		0DEDDFF9188D80958CDB582296C3AB15 /* Pods_MedStreakTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MedStreakTests.framework; path = "Pods-MedStreakTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F03A9969F59298599B557E993114CE1 /* OCKCareSchedule_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKCareSchedule_Private.h; path = CareKit/CarePlan/OCKCareSchedule_Private.h; sourceTree = "<group>"; };
+		0F2CB1473BF07D20C9D8F4C736D8C875 /* Pods_MedStreak.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MedStreak.framework; path = "Pods-MedStreak.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F9308C82BBBB6E49EC83319AD2B98FD /* OCKRingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKRingView.h; path = CareKit/SymptomTracker/OCKRingView.h; sourceTree = "<group>"; };
+		10B2CC49C55F8B6EC1C1D6C440B7E66E /* OCKConnectTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKConnectTableViewCell.m; path = CareKit/Connect/OCKConnectTableViewCell.m; sourceTree = "<group>"; };
+		113DFCBA7C2AB9F4857FE3FA810F07EF /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		1152C6F3E56DB7B0138939197AE780EA /* Pods-MedStreak.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MedStreak.modulemap"; sourceTree = "<group>"; };
+		118EB66FA7051E7DBFFC8490746D2721 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		1439C5A7992ED5FE61E1C7B992024E26 /* OCKCareSchedule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKCareSchedule.h; path = CareKit/CarePlan/OCKCareSchedule.h; sourceTree = "<group>"; };
+		146AA59950DAEF743C06E63029B75663 /* CareKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CareKit.h; path = CareKit/CareKit.h; sourceTree = "<group>"; };
+		15A3F3705D485484C24AC21D426C4DA3 /* CareKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CareKit-prefix.pch"; sourceTree = "<group>"; };
+		16B3E9BB5E03F4A04C217E5FFDF9C38A /* OCKRingItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKRingItem.h; path = CareKit/Insights/OCKRingItem.h; sourceTree = "<group>"; };
+		16FA91ACBE40161CEC6079869CD0C91A /* OCKCarePlanEventResult_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKCarePlanEventResult_Internal.h; path = CareKit/CarePlan/OCKCarePlanEventResult_Internal.h; sourceTree = "<group>"; };
+		181EB0768BD3C82192D9C756F688EF7A /* Pods-MedStreakTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MedStreakTests.modulemap"; sourceTree = "<group>"; };
+		18B45DF6AF04393BD7065A676EEF36ED /* OCKCareCardButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKCareCardButton.h; path = CareKit/CareCard/OCKCareCardButton.h; sourceTree = "<group>"; };
+		1915729FA9E0DCD2FAB19EC5544278E7 /* OCKConnectViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKConnectViewController.m; path = CareKit/Connect/OCKConnectViewController.m; sourceTree = "<group>"; };
+		19BAF2F3D6E68853D113D57440B4F23E /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		1A1E79EAFCF3178C82A3C264FDEF2D49 /* OCKHTMLPDFWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKHTMLPDFWriter.h; path = CareKit/PDF/OCKHTMLPDFWriter.h; sourceTree = "<group>"; };
+		1B59110C7C6888210422DF2A5079AE23 /* OCKColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKColor.h; path = CareKit/Common/OCKColor.h; sourceTree = "<group>"; };
+		1B6805CF2CBAD9DDA5E849EAF6C04B8E /* CareKit_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CareKit_Private.h; path = CareKit/CareKit_Private.h; sourceTree = "<group>"; };
+		1E947808AE4C752DD65961A0A2927391 /* OCKConnectMessageTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKConnectMessageTableViewCell.m; path = CareKit/Connect/OCKConnectMessageTableViewCell.m; sourceTree = "<group>"; };
+		205BD13F205D169847E12C73FEE4C7E8 /* OCKDocument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKDocument.m; path = CareKit/PDF/OCKDocument.m; sourceTree = "<group>"; };
+		20722AF116BF1CAFBF3608E89344B43E /* OCKInsightsRingTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKInsightsRingTableViewCell.m; path = CareKit/Insights/OCKInsightsRingTableViewCell.m; sourceTree = "<group>"; };
+		2076C9A6B7FB21ECE8CA0B0A2E4A11FB /* ro.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ro.lproj; path = CareKit/Localization/ro.lproj; sourceTree = "<group>"; };
+		22976D16C43BB751EB5B280E5B198509 /* da.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = da.lproj; path = CareKit/Localization/da.lproj; sourceTree = "<group>"; };
+		23B9BDA64ED93429E8F2E8506789BDB8 /* vi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = vi.lproj; path = CareKit/Localization/vi.lproj; sourceTree = "<group>"; };
+		262163E3C2D6E5203D4CC26232528F9E /* OCKBarChart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKBarChart.h; path = CareKit/Insights/OCKBarChart.h; sourceTree = "<group>"; };
+		265EAC8F6F6D0F4A74C2AD46ACB835EB /* Pods-MedStreakUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MedStreakUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		26BC49F6411C5C4B2C99895F3CD5FC8C /* Pods-MedStreakUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MedStreakUITests-umbrella.h"; sourceTree = "<group>"; };
+		274ED197082EBD5BA44EE45AF0B3314E /* OCKCareCardViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKCareCardViewController.h; path = CareKit/CareCard/OCKCareCardViewController.h; sourceTree = "<group>"; };
+		278B6F098FBB28BDAB9D68D0006F8CFB /* OCKConnectMessagesViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKConnectMessagesViewController.h; path = CareKit/Connect/OCKConnectMessagesViewController.h; sourceTree = "<group>"; };
+		27F3DC3BE242D144AD396573053A700B /* OCKCarePlanActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKCarePlanActivity.h; path = CareKit/CarePlan/OCKCarePlanActivity.h; sourceTree = "<group>"; };
+		2862BF1EFC9DFCD437506BB76CE10950 /* hi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = hi.lproj; path = CareKit/Localization/hi.lproj; sourceTree = "<group>"; };
+		28B0D2D612729B2350736369CE044754 /* OCKCarePlanThreshold.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKCarePlanThreshold.h; path = CareKit/CarePlan/OCKCarePlanThreshold.h; sourceTree = "<group>"; };
+		29AE23DFDC2E47CDF464843F9A019F70 /* OCKTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKTableViewCell.h; path = CareKit/Common/OCKTableViewCell.h; sourceTree = "<group>"; };
+		2A2FC01A0FA5EE6A84225D6D2330D5EE /* OCKCareCardInstructionsTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKCareCardInstructionsTableViewCell.h; path = CareKit/CareCard/OCKCareCardInstructionsTableViewCell.h; sourceTree = "<group>"; };
+		2A49FBB094DCBA5CD229D779F3E8E045 /* OCKCarePlanEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKCarePlanEvent.h; path = CareKit/CarePlan/OCKCarePlanEvent.h; sourceTree = "<group>"; };
+		2AFFA836AB5BBE56AF81AA44CD80129A /* OCKSymptomTrackerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKSymptomTrackerViewController.m; path = CareKit/SymptomTracker/OCKSymptomTrackerViewController.m; sourceTree = "<group>"; };
+		2B733DF76AC7FA7778E30D63201B12BB /* ko.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ko.lproj; path = CareKit/Localization/ko.lproj; sourceTree = "<group>"; };
+		2C9F06C3E6F7FD973144C4842A1C58BB /* th.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = th.lproj; path = CareKit/Localization/th.lproj; sourceTree = "<group>"; };
+		2CC72794F751BF541ACE4E082B444703 /* pl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = pl.lproj; path = CareKit/Localization/pl.lproj; sourceTree = "<group>"; };
+		2E969F4151E89422B1E59B412C9907C8 /* OCKMessageItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKMessageItem.m; path = CareKit/Insights/OCKMessageItem.m; sourceTree = "<group>"; };
+		2F058945A74B47382EDFA0AD5F3BA2CF /* OCKHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKHeaderView.m; path = CareKit/Common/OCKHeaderView.m; sourceTree = "<group>"; };
+		2F2DDAD950E86E443DCCA3916B8E59BA /* OCKCarePlanStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKCarePlanStore.m; path = CareKit/CarePlan/OCKCarePlanStore.m; sourceTree = "<group>"; };
+		2F6DF529AFD9D39E09A52550CD740A5E /* Pods-MedStreakTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MedStreakTests.release.xcconfig"; sourceTree = "<group>"; };
+		3100D0EE4A0E5C7CBB8E9F2F9458BD94 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		31724A9E6C8A59743C65AC2E15D3459E /* id.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = id.lproj; path = CareKit/Localization/id.lproj; sourceTree = "<group>"; };
+		31EB8EADA44F14C43CEA7377BEE4B181 /* OCKPatientWidget_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKPatientWidget_Internal.h; path = CareKit/Patient/OCKPatientWidget_Internal.h; sourceTree = "<group>"; };
+		34347FB86D6FF472297499EA85BE21C9 /* UICircularProgressRing-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICircularProgressRing-prefix.pch"; sourceTree = "<group>"; };
+		37F431595FF9611DEB26E288A84AA513 /* Pods-MedStreak.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MedStreak.release.xcconfig"; sourceTree = "<group>"; };
+		38CD9533E213F69F9414F55F365D893A /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = de.lproj; path = CareKit/Localization/de.lproj; sourceTree = "<group>"; };
+		3A031BA5CEE09F02CBC5FC354C9E3BB4 /* OCKInsightsTableViewHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKInsightsTableViewHeaderView.m; path = CareKit/Insights/OCKInsightsTableViewHeaderView.m; sourceTree = "<group>"; };
+		3A2239B77FEE2A3E58E3DB9E4A8C5BB0 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		3CE3F8EEDC4EFD5576CD9F0C2871A3CC /* OCKCareCardDetailHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKCareCardDetailHeaderView.h; path = CareKit/CareCard/OCKCareCardDetailHeaderView.h; sourceTree = "<group>"; };
+		3D8B0A357E8D0A9FA142C88A10E8FF46 /* OCKConnectHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKConnectHeaderView.m; path = CareKit/Connect/OCKConnectHeaderView.m; sourceTree = "<group>"; };
+		3DA3DDBC5BDBE07D796BA60C505A65EA /* OCKConnectViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKConnectViewController.h; path = CareKit/Connect/OCKConnectViewController.h; sourceTree = "<group>"; };
+		3FD9127F4B0C1BC4782F1A1CD4D92AB3 /* OCKContact.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKContact.h; path = CareKit/Connect/OCKContact.h; sourceTree = "<group>"; };
+		42C1F4036F29EB871B85372D487533A8 /* OCKConnectMessageTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKConnectMessageTableViewCell.h; path = CareKit/Connect/OCKConnectMessageTableViewCell.h; sourceTree = "<group>"; };
+		435964DDA66163FC3371FB41231EAEAE /* ru.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ru.lproj; path = CareKit/Localization/ru.lproj; sourceTree = "<group>"; };
+		43D70361AD3F5286EF1BF4CA72A22D51 /* OCKInsightsMessageTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKInsightsMessageTableViewCell.h; path = CareKit/Insights/OCKInsightsMessageTableViewCell.h; sourceTree = "<group>"; };
+		442E3506107E2DB541F936B0E6A42E12 /* OCKCarePlanStore.xcdatamodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcdatamodel; path = OCKCarePlanStore.xcdatamodel; sourceTree = "<group>"; };
+		4570302DFD7B76466AEA443A725D95DF /* OCKCarePlanEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKCarePlanEvent.m; path = CareKit/CarePlan/OCKCarePlanEvent.m; sourceTree = "<group>"; };
+		457C3C46698288F1D5C2EE6751DE3053 /* OCKStackedPatientWidgetView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKStackedPatientWidgetView.h; path = CareKit/Patient/OCKStackedPatientWidgetView.h; sourceTree = "<group>"; };
+		45E1529ECE8BC105D3E5E777F81E232B /* CareKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CareKit.framework; path = CareKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		460668564AF3B80B372D75981A970734 /* NSDateComponents+CarePlanInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDateComponents+CarePlanInternal.h"; path = "CareKit/CarePlan/NSDateComponents+CarePlanInternal.h"; sourceTree = "<group>"; };
+		47A4DB23F0227B09F5FC7FAADED5A6D4 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		480199A53FFA8B1FDA048FDC905A0028 /* OCKConnectMessageItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKConnectMessageItem.m; path = CareKit/Connect/OCKConnectMessageItem.m; sourceTree = "<group>"; };
+		4839B17AAFEE3A768A5A85BC7D37D530 /* ms.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ms.lproj; path = CareKit/Localization/ms.lproj; sourceTree = "<group>"; };
+		49ED70B79F12006332984BDAC24ED37D /* OCKContactInfoTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKContactInfoTableViewCell.h; path = CareKit/Connect/OCKContactInfoTableViewCell.h; sourceTree = "<group>"; };
+		4A77C06F41C3751A4E135A20740E06CB /* OCKConnectTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKConnectTableViewCell.h; path = CareKit/Connect/OCKConnectTableViewCell.h; sourceTree = "<group>"; };
+		4A9C7E591F320599500F59DC85E97FBA /* OCKTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKTextView.m; path = CareKit/Connect/OCKTextView.m; sourceTree = "<group>"; };
+		4BE092E7D9824D8AA3654A190331A0A6 /* nb.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = nb.lproj; path = CareKit/Localization/nb.lproj; sourceTree = "<group>"; };
+		4C6394A903C95CEAB4191A04021E576E /* OCKPatientWidgetView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKPatientWidgetView.h; path = CareKit/Patient/OCKPatientWidgetView.h; sourceTree = "<group>"; };
+		4CF297ADB6790B2AAAB9952E3DF99937 /* OCKDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKDefines.h; path = CareKit/Utilities/OCKDefines.h; sourceTree = "<group>"; };
+		4D365CD94D99F1E86C55B5838AD764F1 /* OCKTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKTableViewCell.m; path = CareKit/Common/OCKTableViewCell.m; sourceTree = "<group>"; };
+		4DA1B061DDF13C0BD5F38E9FA6F5C046 /* zh_CN.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = zh_CN.lproj; path = CareKit/Localization/zh_CN.lproj; sourceTree = "<group>"; };
+		4E7B24BB43415AEE766CC3E8280A4CE8 /* OCKConnectMessagesViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKConnectMessagesViewController.m; path = CareKit/Connect/OCKConnectMessagesViewController.m; sourceTree = "<group>"; };
+		4E940060DAE436E5D1448052D3271856 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = CareKit/Assets.xcassets; sourceTree = "<group>"; };
+		4EBF301C1688C2E3566AE8FFD41E5DF7 /* UICircularProgressRingStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICircularProgressRingStyle.swift; path = src/UICircularProgressRing/UICircularProgressRingStyle.swift; sourceTree = "<group>"; };
+		4F47EE1CD8BB1187B458EF6B62D68A39 /* OCKBarChart.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKBarChart.m; path = CareKit/Insights/OCKBarChart.m; sourceTree = "<group>"; };
+		4FB9CA9BC991D51C0E83CCB2EB48F608 /* OCKCareCardInstructionsTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKCareCardInstructionsTableViewCell.m; path = CareKit/CareCard/OCKCareCardInstructionsTableViewCell.m; sourceTree = "<group>"; };
+		4FC19F6CD9D5FCFFA6026C64D8F91F11 /* he.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = he.lproj; path = CareKit/Localization/he.lproj; sourceTree = "<group>"; };
+		5038EA805F1A71BFEB28288443A646F6 /* ca.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ca.lproj; path = CareKit/Localization/ca.lproj; sourceTree = "<group>"; };
+		50803FA990D0D462212491CAB11A11C4 /* OCKGlyph.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKGlyph.m; path = CareKit/Common/OCKGlyph.m; sourceTree = "<group>"; };
+		53295A301822E377AE8ABD9A036637E3 /* Pods-MedStreakTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MedStreakTests-dummy.m"; sourceTree = "<group>"; };
+		53D0B4D9F55AD2A5E3517BEAC380F0E1 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = CareKit/Localization/en.lproj; sourceTree = "<group>"; };
+		53EDDD66A2994225769F704290B5F420 /* Pods-MedStreak-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MedStreak-umbrella.h"; sourceTree = "<group>"; };
+		571028BDB6B6E991156B4D264F89DEE7 /* OCKRingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKRingView.m; path = CareKit/SymptomTracker/OCKRingView.m; sourceTree = "<group>"; };
+		57490497F99EC9FD318E9A9AA2719DD2 /* OCKConnectTableViewHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKConnectTableViewHeader.h; path = CareKit/Connect/OCKConnectTableViewHeader.h; sourceTree = "<group>"; };
+		57D39C3A4CC71A2D35C745F291E0BFCC /* OCKContactInfoTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKContactInfoTableViewCell.m; path = CareKit/Connect/OCKContactInfoTableViewCell.m; sourceTree = "<group>"; };
+		580F078CCF1958971FF65DCD715E0B57 /* OCKTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKTextView.h; path = CareKit/Connect/OCKTextView.h; sourceTree = "<group>"; };
+		581332D1FC307008B1DE93B03B0F45DC /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		59EAADEEA023895AD3C03840569E03A9 /* NSDateComponents+CarePlan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDateComponents+CarePlan.m"; path = "CareKit/CarePlan/NSDateComponents+CarePlan.m"; sourceTree = "<group>"; };
+		5D7C50C10C89A87957A158B293E8CCC7 /* UICircularProgressRing.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UICircularProgressRing.modulemap; sourceTree = "<group>"; };
+		5D83376FA4ADC1DE35EEC52979A64520 /* OCKHTMLPDFWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKHTMLPDFWriter.m; path = CareKit/PDF/OCKHTMLPDFWriter.m; sourceTree = "<group>"; };
+		603F3AF704AE8EFD66D0D87B0681C2CE /* OCKContactSharingTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKContactSharingTableViewCell.h; path = CareKit/Connect/OCKContactSharingTableViewCell.h; sourceTree = "<group>"; };
+		61338424D2EDE3DD0D33A3A567E27B01 /* OCKContactSharingTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKContactSharingTableViewCell.m; path = CareKit/Connect/OCKContactSharingTableViewCell.m; sourceTree = "<group>"; };
+		62DFFC4924C01F9D1FEA4D537BB4F504 /* OCKCareCardAdditionalInfoTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKCareCardAdditionalInfoTableViewCell.h; path = CareKit/CareCard/OCKCareCardAdditionalInfoTableViewCell.h; sourceTree = "<group>"; };
+		636CBB801086A1C47CC2FC39696B7224 /* OCKHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKHelpers.m; path = CareKit/Utilities/OCKHelpers.m; sourceTree = "<group>"; };
+		63E2C792D5D1569C524E83AB3421E42B /* OCKHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKHeaderView.h; path = CareKit/Common/OCKHeaderView.h; sourceTree = "<group>"; };
+		6550862D310D4A074BFCF870D6516601 /* OCKCareContentsViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKCareContentsViewController.m; path = CareKit/CareContents/OCKCareContentsViewController.m; sourceTree = "<group>"; };
+		674D72CA5463AA4C0238569EA6E8E5C8 /* NSDateComponents+CarePlan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDateComponents+CarePlan.h"; path = "CareKit/CarePlan/NSDateComponents+CarePlan.h"; sourceTree = "<group>"; };
+		67C8EB2B310B4DBA0DDC4AA7E32D46B1 /* Pods-MedStreakTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MedStreakTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		68D8E7EF3C0C87F5CE7A32F7B6D8C3C0 /* Pods-MedStreakUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MedStreakUITests-dummy.m"; sourceTree = "<group>"; };
+		68E4860EEB06DF736CC0B54E13463120 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		6BB99C41ADE7D258F90601E8F19979DC /* OCKConnectDetailViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKConnectDetailViewController.m; path = CareKit/Connect/OCKConnectDetailViewController.m; sourceTree = "<group>"; };
+		6CFB4FA342ADCE26622FC151C2035876 /* OCKMessageItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKMessageItem.h; path = CareKit/Insights/OCKMessageItem.h; sourceTree = "<group>"; };
+		6E7E9D8BD7E57EA4373C9C257847C4F7 /* OCKGroupedBarChartView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKGroupedBarChartView.m; path = CareKit/Insights/OCKGroupedBarChartView.m; sourceTree = "<group>"; };
+		6F1DE6FA10FEE68B120B5FF3E5FC94C7 /* OCKWeekView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKWeekView.h; path = CareKit/SymptomTracker/OCKWeekView.h; sourceTree = "<group>"; };
+		706FDAC215FFB171C3E86A06481636A4 /* UICircularProgressRing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICircularProgressRing.swift; path = src/UICircularProgressRing/UICircularProgressRing.swift; sourceTree = "<group>"; };
+		7145C3F896EC02B11788C860A42DED36 /* OCKCareCardViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKCareCardViewController.m; path = CareKit/CareCard/OCKCareCardViewController.m; sourceTree = "<group>"; };
+		71DCE59640A92E8CF282E3439CF57798 /* OCKInsightsMessageTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKInsightsMessageTableViewCell.m; path = CareKit/Insights/OCKInsightsMessageTableViewCell.m; sourceTree = "<group>"; };
+		74C0B0BE49FC6FA402619F61BF166CD9 /* OCKRingItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKRingItem.m; path = CareKit/Insights/OCKRingItem.m; sourceTree = "<group>"; };
+		7709E4A25CE5BA62A24980CA7B27B083 /* OCKWeekLabelsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKWeekLabelsView.h; path = CareKit/Common/OCKWeekLabelsView.h; sourceTree = "<group>"; };
+		770B55126C85EF266712AC7C600ECAF8 /* OCKLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKLabel.m; path = CareKit/Common/OCKLabel.m; sourceTree = "<group>"; };
+		7754362C2EF6407C8B44C4D354E1599C /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		783F265A5CDE8B339FEBBA28B252D015 /* OCKInsightsChartTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKInsightsChartTableViewCell.m; path = CareKit/Insights/OCKInsightsChartTableViewCell.m; sourceTree = "<group>"; };
+		78E3F1A98CD3DD403DCCBADEB49DC3B1 /* OCKBadgePatientWidgetView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKBadgePatientWidgetView.m; path = CareKit/Patient/OCKBadgePatientWidgetView.m; sourceTree = "<group>"; };
+		7A9ECE4B8B6D881BAA26439FFF102D98 /* OCKWeekViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKWeekViewController.m; path = CareKit/Common/OCKWeekViewController.m; sourceTree = "<group>"; };
+		7AADB033B08A9543D6311E22BC7D6DD4 /* OCKInsightsRingTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKInsightsRingTableViewCell.h; path = CareKit/Insights/OCKInsightsRingTableViewCell.h; sourceTree = "<group>"; };
+		7D89FD668235A1E8CF14FC72656D31C8 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		7FB1FE47074A8BE4EB3463F760F6F008 /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ja.lproj; path = CareKit/Localization/ja.lproj; sourceTree = "<group>"; };
+		814F146F2D72DB57F3943DEFF64AD257 /* OCKBarSeries.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKBarSeries.m; path = CareKit/Insights/OCKBarSeries.m; sourceTree = "<group>"; };
+		8208D03FD957A34F0C083E6F3EBC1D22 /* OCKDefines_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKDefines_Private.h; path = CareKit/Utilities/OCKDefines_Private.h; sourceTree = "<group>"; };
+		8456DFE4A6CCCF8FF3159D855F70FD0F /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		8492E6C6853FB95B6FAE55145782AF8E /* Pods-MedStreak-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MedStreak-resources.sh"; sourceTree = "<group>"; };
+		852813020865E75D9B6D6069768C5324 /* uk.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = uk.lproj; path = CareKit/Localization/uk.lproj; sourceTree = "<group>"; };
+		85658AFD048AD8A57A54533A8FEE03ED /* Pods-MedStreak-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MedStreak-dummy.m"; sourceTree = "<group>"; };
+		86B125471D8DBFC2B7D74B47FDC5ED1A /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		8709FFB4803F7F3F861D408A8BA87C51 /* OCKInsightsChartTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKInsightsChartTableViewCell.h; path = CareKit/Insights/OCKInsightsChartTableViewCell.h; sourceTree = "<group>"; };
+		879DE399AEF54113CC78EEB2783C327E /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		87BDDAE46AA15B30A110C1CD3DB5D341 /* OCKInsightsViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKInsightsViewController.m; path = CareKit/Insights/OCKInsightsViewController.m; sourceTree = "<group>"; };
+		8879645663BBD7E11E9B53D619A933BA /* tr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = tr.lproj; path = CareKit/Localization/tr.lproj; sourceTree = "<group>"; };
+		88B95E2F460999C5998EA1314871F905 /* OCKCareCardDetailViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKCareCardDetailViewController.m; path = CareKit/CareCard/OCKCareCardDetailViewController.m; sourceTree = "<group>"; };
+		8AC0F143E31E246A6EBC466BF14CC658 /* OCKPatientWidget.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKPatientWidget.m; path = CareKit/Patient/OCKPatientWidget.m; sourceTree = "<group>"; };
+		8ACA719DC43A2E735C68C34BEC89EED5 /* Pods-MedStreakUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MedStreakUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8B2F3C31189ED03F9A898D42F1FAB89F /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		8E5A9FFA57440DA725E6E32C49852282 /* OCKImagePatientWidgetView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKImagePatientWidgetView.m; path = CareKit/Patient/OCKImagePatientWidgetView.m; sourceTree = "<group>"; };
+		8E6B1CF06EF29A3C3B129630855B2E83 /* OCKCareCardDetailViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKCareCardDetailViewController.h; path = CareKit/CareCard/OCKCareCardDetailViewController.h; sourceTree = "<group>"; };
+		9046498065853ABDFBF496DBF9207B5B /* CareKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CareKit.xcconfig; sourceTree = "<group>"; };
+		904B5BCCBFE902E14BEEFF54A6101FC4 /* OCKChart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKChart.h; path = CareKit/Insights/OCKChart.h; sourceTree = "<group>"; };
+		9087DDFDA5A01FE085D87C1AD47861F3 /* OCKCareCardTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKCareCardTableViewCell.h; path = CareKit/CareCard/OCKCareCardTableViewCell.h; sourceTree = "<group>"; };
+		90F496EE87730EC61F154C37A88F27FE /* Pods_MedStreakUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MedStreakUITests.framework; path = "Pods-MedStreakUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90F6F06F38146E65E08CB943435C4812 /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = it.lproj; path = CareKit/Localization/it.lproj; sourceTree = "<group>"; };
+		913913CE274AB3E22D838023EA8DD1AB /* en_GB.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en_GB.lproj; path = CareKit/Localization/en_GB.lproj; sourceTree = "<group>"; };
+		922719B7AEBC0C488DE03DB2317A1485 /* UICircularProgressRing-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICircularProgressRing-umbrella.h"; sourceTree = "<group>"; };
+		9237131A888F2BC297E1AAC560C107AA /* OCKChart.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKChart.m; path = CareKit/Insights/OCKChart.m; sourceTree = "<group>"; };
+		92A80A3F06753783473FE8C6364BB48B /* OCKConnectHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKConnectHeaderView.h; path = CareKit/Connect/OCKConnectHeaderView.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		958C0065DA8E4ED6D010FB0D13F11B8C /* pt_PT.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = pt_PT.lproj; path = CareKit/Localization/pt_PT.lproj; sourceTree = "<group>"; };
+		960C64E1C868F7E534544C08A2418790 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		96AF4AF1E66B2EF3E77C88723663849E /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = fr.lproj; path = CareKit/Localization/fr.lproj; sourceTree = "<group>"; };
+		9715EB3F4110058AA3FA563B2CFCEAED /* UICircularProgressRing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UICircularProgressRing.framework; path = UICircularProgressRing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9726430ACE377DFA5C263F9A3A34B297 /* UICircularProgressRingLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICircularProgressRingLayer.swift; path = src/UICircularProgressRing/UICircularProgressRingLayer.swift; sourceTree = "<group>"; };
+		9B258EEAAEB6FE25746EF42FD5262065 /* OCKDocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKDocument.h; path = CareKit/PDF/OCKDocument.h; sourceTree = "<group>"; };
+		9B70BE59AD0460571C0A8FE957BBA4D2 /* OCKPatient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKPatient.m; path = CareKit/Patient/OCKPatient.m; sourceTree = "<group>"; };
+		9BFCD846B8563EE8812BBCA4A21AE166 /* OCKCareCardDetailHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKCareCardDetailHeaderView.m; path = CareKit/CareCard/OCKCareCardDetailHeaderView.m; sourceTree = "<group>"; };
+		9CAA33C9CA8B077D97ADA7F7B77BE3FB /* OCKCarePlanStore v2.xcdatamodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcdatamodel; path = "OCKCarePlanStore v2.xcdatamodel"; sourceTree = "<group>"; };
+		9CD2D2D08874B877DACB7C725727A5F2 /* OCKGlyph.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKGlyph.h; path = CareKit/Common/OCKGlyph.h; sourceTree = "<group>"; };
+		9CDA3B0B0D0D3A283BFA810CC44C323A /* OCKStackedPatientWidgetView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKStackedPatientWidgetView.m; path = CareKit/Patient/OCKStackedPatientWidgetView.m; sourceTree = "<group>"; };
+		9D603707D4ED49E0DB1B55A46CF0FCE9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EFA0EBAC4F3042A8F8FEFF6050EABEB /* sv.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = sv.lproj; path = CareKit/Localization/sv.lproj; sourceTree = "<group>"; };
+		9F793AD2F9F822D11AE0F582A8923772 /* CareKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CareKit.modulemap; sourceTree = "<group>"; };
+		9FF6B5B5D6A17B7428256A97794CF1A0 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		A0272695A7072E9D969B9C89A0B7AE6C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A132C8F2FA11DB0EACF7A6B18D97CC19 /* OCKReadOnlyTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKReadOnlyTableViewCell.m; path = CareKit/CareContents/OCKReadOnlyTableViewCell.m; sourceTree = "<group>"; };
+		A2163B4CABF03BD087C382DD947A73E5 /* fi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = fi.lproj; path = CareKit/Localization/fi.lproj; sourceTree = "<group>"; };
+		A2C6AFCCAA9E01500AA6DD6E5CEF8BDA /* Pods-MedStreak.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MedStreak.debug.xcconfig"; sourceTree = "<group>"; };
+		A330681F1A73FCC7D2F6DBDE7B8F9141 /* Pods-MedStreakTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MedStreakTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A4284C31E97D0CB99B0129C66F526FF3 /* OCKPatientWidgetView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKPatientWidgetView.m; path = CareKit/Patient/OCKPatientWidgetView.m; sourceTree = "<group>"; };
+		A6F3EB8BCFE36ACC21680CC93DF7C2CF /* OCKContact.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKContact.m; path = CareKit/Connect/OCKContact.m; sourceTree = "<group>"; };
+		A7CBD7952A652F7876A8A079DA446F45 /* UICircularProgressRing-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICircularProgressRing-dummy.m"; sourceTree = "<group>"; };
+		AB083C2B2C516C7DD5819F1BAD84173A /* OCKCareContentsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKCareContentsViewController.h; path = CareKit/CareContents/OCKCareContentsViewController.h; sourceTree = "<group>"; };
+		AB1CE0E0143F06352C43CBC1B39F574E /* OCKCarePlanStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKCarePlanStore.h; path = CareKit/CarePlan/OCKCarePlanStore.h; sourceTree = "<group>"; };
+		AE240F60B21903E7537BD1BBD1CD27DD /* OCKDefaultPatientWidgetView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKDefaultPatientWidgetView.m; path = CareKit/Patient/OCKDefaultPatientWidgetView.m; sourceTree = "<group>"; };
+		AF1D1DB8A5BDE29520EEE683E384AF11 /* OCKWeekViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKWeekViewController.h; path = CareKit/Common/OCKWeekViewController.h; sourceTree = "<group>"; };
+		B03011A41AD6CCDA2B8CF1AB1F37FBD4 /* Pods-MedStreak-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MedStreak-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B08D16B616F9CC172DC50F4D44788535 /* OCKPatient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKPatient.h; path = CareKit/Patient/OCKPatient.h; sourceTree = "<group>"; };
+		B1C2A169318BD601EA79615374189C2F /* OCKCareSchedule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKCareSchedule.m; path = CareKit/CarePlan/OCKCareSchedule.m; sourceTree = "<group>"; };
+		B1E7F46EC548D44081C2ABB04836401C /* OCKCarePlanStore_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKCarePlanStore_Internal.h; path = CareKit/CarePlan/OCKCarePlanStore_Internal.h; sourceTree = "<group>"; };
+		B3C37D81A259BE11D47CD7767F0C18FE /* OCKCareCardTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKCareCardTableViewCell.m; path = CareKit/CareCard/OCKCareCardTableViewCell.m; sourceTree = "<group>"; };
+		B4C0248461B3BEFFFC0EC49AB62C4B92 /* en_AU.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en_AU.lproj; path = CareKit/Localization/en_AU.lproj; sourceTree = "<group>"; };
+		B4C9282A1A02560DE95A82C42DCB4F18 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4D28A65A1F15AA87F5132C2BC467FD7 /* Pods-MedStreakTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MedStreakTests-frameworks.sh"; sourceTree = "<group>"; };
+		B711DB9B91D6C109B95E5A4B09E87BFE /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = es.lproj; path = CareKit/Localization/es.lproj; sourceTree = "<group>"; };
+		B86E6E8478BC816F5903B5AE5156FE56 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		B8BE938F4704AB29AEE00DF39BB82BAA /* OCKCareSchedule_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKCareSchedule_Internal.h; path = CareKit/CarePlan/OCKCareSchedule_Internal.h; sourceTree = "<group>"; };
+		B93C27FA1B8F4C59FDB8B6CA1309F329 /* OCKRingButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKRingButton.m; path = CareKit/SymptomTracker/OCKRingButton.m; sourceTree = "<group>"; };
+		B9669ABF2D1632F8285A8D5E03464F2E /* OCKSymptomTrackerTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKSymptomTrackerTableViewCell.h; path = CareKit/SymptomTracker/OCKSymptomTrackerTableViewCell.h; sourceTree = "<group>"; };
+		BAEBE83E0B7974C99C834815D68A251F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC2ACA17A3E3ED62B830522002B8D94A /* OCKLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKLabel.h; path = CareKit/Common/OCKLabel.h; sourceTree = "<group>"; };
+		BC2F89910388802ACFD363D9B596F9DE /* OCKConnectTableViewHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKConnectTableViewHeader.m; path = CareKit/Connect/OCKConnectTableViewHeader.m; sourceTree = "<group>"; };
+		BD7DB9B4D1B10D8526BD8A51EBEE11F1 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		C031B39DDE6910FF0636114E3910C768 /* OCKCarePlanThreshold.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKCarePlanThreshold.m; path = CareKit/CarePlan/OCKCarePlanThreshold.m; sourceTree = "<group>"; };
+		C4C9C872936F8CDD433B342A559629B8 /* OCKPatientHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKPatientHeaderView.m; path = CareKit/Patient/OCKPatientHeaderView.m; sourceTree = "<group>"; };
+		C73AB8ED1C40FD2F89BA60A4DD8EE89A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C79BDB5B92B5558BAD65C59AA2341427 /* Pods-MedStreak-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MedStreak-acknowledgements.plist"; sourceTree = "<group>"; };
+		C82BC9DCE6B481F5966E62C18BBD88CE /* nl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = nl.lproj; path = CareKit/Localization/nl.lproj; sourceTree = "<group>"; };
+		C830429CBE6D5F90560EA1D1C5655EBD /* OCKContactInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKContactInfo.h; path = CareKit/Connect/OCKContactInfo.h; sourceTree = "<group>"; };
+		CAAEE2C011A60B83FBE93AC267A2E19A /* OCKInsightsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKInsightsViewController.h; path = CareKit/Insights/OCKInsightsViewController.h; sourceTree = "<group>"; };
+		CAE97FF2AA0515BB7DC071CC5670E475 /* OCKContactInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKContactInfo.m; path = CareKit/Connect/OCKContactInfo.m; sourceTree = "<group>"; };
+		CC623EFB61B559C52789149460868AC8 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		CD0C31BD5405710AD1A1F09A3A1B06FD /* OCKCareCardButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKCareCardButton.m; path = CareKit/CareCard/OCKCareCardButton.m; sourceTree = "<group>"; };
+		CDA48E759A70E8ACADB55331FD6E8A73 /* OCKCarePlanActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKCarePlanActivity.m; path = CareKit/CarePlan/OCKCarePlanActivity.m; sourceTree = "<group>"; };
+		CFC25C86B77AA84B0AD980BD6584AC62 /* OCKInsightItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKInsightItem.m; path = CareKit/Insights/OCKInsightItem.m; sourceTree = "<group>"; };
+		D09314571DC25B3EEBB1E307CAFD710A /* Pods-MedStreakUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MedStreakUITests.modulemap"; sourceTree = "<group>"; };
+		D1630E363BD21BCB8C3F4D4A62F766A6 /* ar.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ar.lproj; path = CareKit/Localization/ar.lproj; sourceTree = "<group>"; };
+		D34BF5EF019D01CF8B6614FDF5CAD2BE /* Pods-MedStreakUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MedStreakUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D4E8E228BB7C751A24E3716A2F55497D /* UICircularProgressRing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UICircularProgressRing.h; path = src/UICircularProgressRing/UICircularProgressRing.h; sourceTree = "<group>"; };
+		D5B7F074579B565FF21C997D1D582BF0 /* sk.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = sk.lproj; path = CareKit/Localization/sk.lproj; sourceTree = "<group>"; };
+		D66194F737F66728E33D2DB64179B3E4 /* fr_CA.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = fr_CA.lproj; path = CareKit/Localization/fr_CA.lproj; sourceTree = "<group>"; };
+		D71CCD1B600B2F6F5BDAFB08A60B72EB /* Pods-MedStreakTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MedStreakTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D73B4302A5B911214320DE0C60B51E19 /* es_419.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = es_419.lproj; path = CareKit/Localization/es_419.lproj; sourceTree = "<group>"; };
+		DA5FC4C291D5266390F08FA140CAA48E /* OCKSymptomTrackerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKSymptomTrackerViewController.h; path = CareKit/SymptomTracker/OCKSymptomTrackerViewController.h; sourceTree = "<group>"; };
+		DAFD1FBD464FBFE20BEB004D6E6D5423 /* Pods-MedStreakTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MedStreakTests-umbrella.h"; sourceTree = "<group>"; };
+		DC8CD4F40ED14295A80E4716B8191872 /* OCKDefaultPatientWidgetView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKDefaultPatientWidgetView.h; path = CareKit/Patient/OCKDefaultPatientWidgetView.h; sourceTree = "<group>"; };
+		DCA9B5CCD60FCFDCCDA8C4BF3C20C10A /* OCKSymptomTrackerTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKSymptomTrackerTableViewCell.m; path = CareKit/SymptomTracker/OCKSymptomTrackerTableViewCell.m; sourceTree = "<group>"; };
+		DD140816C30B684DB55464C21B22D291 /* cs.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = cs.lproj; path = CareKit/Localization/cs.lproj; sourceTree = "<group>"; };
+		DDF7780A8680B8FE89235BA74A4B835C /* UICircularProgressRing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UICircularProgressRing.xcconfig; sourceTree = "<group>"; };
+		DE1C2BAAF2D5A554EE23CAA764B58C33 /* OCKRingButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKRingButton.h; path = CareKit/SymptomTracker/OCKRingButton.h; sourceTree = "<group>"; };
+		DE3D3C9786B43664610867EBB8469F2B /* OCKReadOnlyTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKReadOnlyTableViewCell.h; path = CareKit/CareContents/OCKReadOnlyTableViewCell.h; sourceTree = "<group>"; };
+		DE8DA24046798F1F329E256217B4B08E /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		DFCDED85923A9C6EB670111B5BD86392 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		DFDB42DB1303AC1046DA3DED5E46B01C /* OCKCareCardAdditionalInfoTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKCareCardAdditionalInfoTableViewCell.m; path = CareKit/CareCard/OCKCareCardAdditionalInfoTableViewCell.m; sourceTree = "<group>"; };
+		E05F65836A94128AD6290A356F1E3BB4 /* OCKConnectMessageItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKConnectMessageItem.h; path = CareKit/Connect/OCKConnectMessageItem.h; sourceTree = "<group>"; };
+		E0FFAE1CCE7414764CA2CB2EE5C88BB4 /* OCKHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKHelpers.h; path = CareKit/Utilities/OCKHelpers.h; sourceTree = "<group>"; };
+		E1997A75C704C749F7F8534A468BB552 /* OCKPatientWidget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKPatientWidget.h; path = CareKit/Patient/OCKPatientWidget.h; sourceTree = "<group>"; };
+		E2319FAF81A56BE609782FD30A20585B /* OCKCarePlanActivity_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKCarePlanActivity_Internal.h; path = CareKit/CarePlan/OCKCarePlanActivity_Internal.h; sourceTree = "<group>"; };
+		E364AF3F402D1C9F7C904FEE341EAA15 /* OCKWeekLabelsView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKWeekLabelsView.m; path = CareKit/Common/OCKWeekLabelsView.m; sourceTree = "<group>"; };
+		E5741E14CAA02BAB3300C519B426BD27 /* OCKWeekView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKWeekView.m; path = CareKit/SymptomTracker/OCKWeekView.m; sourceTree = "<group>"; };
+		E65A8DBE4AECF371F4CC20B4F0E12ACC /* hu.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = hu.lproj; path = CareKit/Localization/hu.lproj; sourceTree = "<group>"; };
+		E6A41EB6E9C8240B03BFF89B860BFF71 /* es_MX.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = es_MX.lproj; path = CareKit/Localization/es_MX.lproj; sourceTree = "<group>"; };
+		E6E93810E9D2051D9178B7260F512531 /* Pods-MedStreakUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MedStreakUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E6EE71EA37C256A97607ACEEC5DA766F /* OCKGroupedBarChartView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKGroupedBarChartView.h; path = CareKit/Insights/OCKGroupedBarChartView.h; sourceTree = "<group>"; };
+		E829F35837C77D2BA397CF5355CBA96A /* zh_TW.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = zh_TW.lproj; path = CareKit/Localization/zh_TW.lproj; sourceTree = "<group>"; };
+		E8DE69EA8927AB3CBC873A05FF2D16EC /* OCKImagePatientWidgetView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKImagePatientWidgetView.h; path = CareKit/Patient/OCKImagePatientWidgetView.h; sourceTree = "<group>"; };
+		EB13E38EC6B7A1ED86E4462BD7F94A28 /* el.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = el.lproj; path = CareKit/Localization/el.lproj; sourceTree = "<group>"; };
+		EF006F9827E7D82C99AD603EAA0EA36A /* UICircularProgressRingDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICircularProgressRingDelegate.swift; path = src/UICircularProgressRing/UICircularProgressRingDelegate.swift; sourceTree = "<group>"; };
+		F2AAC9542E0A1B73DED5529708222FD6 /* Pods-MedStreakUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MedStreakUITests-resources.sh"; sourceTree = "<group>"; };
+		F33984029150F4EEBC183F3913319E1E /* hr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = hr.lproj; path = CareKit/Localization/hr.lproj; sourceTree = "<group>"; };
+		F495CE26B7DC0AC2A71C398F215F0C7A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F51EA7DE4F34DB9C7B92543B45906897 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		F573C57A8E0076AF4A2518E146AED2FE /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		F6106E358C60E4C3748BB458C326FF59 /* OCKColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCKColor.m; path = CareKit/Common/OCKColor.m; sourceTree = "<group>"; };
+		F6E4F207BF060778A98040F3169FA358 /* OCKPatientHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKPatientHeaderView.h; path = CareKit/Patient/OCKPatientHeaderView.h; sourceTree = "<group>"; };
+		F7D5F6F6ECC3690CB459CFC21C91E1BE /* OCKCarePlanEvent_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKCarePlanEvent_Internal.h; path = CareKit/CarePlan/OCKCarePlanEvent_Internal.h; sourceTree = "<group>"; };
+		F8216C20C3B8DD04D9018610E013EE73 /* Pods-MedStreakUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MedStreakUITests-frameworks.sh"; sourceTree = "<group>"; };
+		F9908C685B58820B3935AF94E11DC48C /* OCKGlyph_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKGlyph_Internal.h; path = CareKit/Common/OCKGlyph_Internal.h; sourceTree = "<group>"; };
+		FA22D6020641B5E90AAD28C124AAB058 /* OCKBadgePatientWidgetView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKBadgePatientWidgetView.h; path = CareKit/Patient/OCKBadgePatientWidgetView.h; sourceTree = "<group>"; };
+		FBB26D8F796D630C10E2568A6E02C38F /* no.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = no.lproj; path = CareKit/Localization/no.lproj; sourceTree = "<group>"; };
+		FDB0E090255A5EF9494CA2CAF9EC36EE /* OCKBarSeries.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKBarSeries.h; path = CareKit/Insights/OCKBarSeries.h; sourceTree = "<group>"; };
+		FE2E8B4D0996221EFB65E2C3A5731594 /* OCKConnectDetailViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCKConnectDetailViewController.h; path = CareKit/Connect/OCKConnectDetailViewController.h; sourceTree = "<group>"; };
+		FE9C8D790F637FD1B54FC18A351EB267 /* pt.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = pt.lproj; path = CareKit/Localization/pt.lproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CEECA77684B9AEE209A79BAC363B63C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C9771C04D9BF38F07E1B129672C89B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2602E30364628AB66EEDAE49B83A2C39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805F6CA057A8B893F7AF809B0830AC3E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27CF9B1CB8A2134FBDC40D162A97D872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B1B89E7F2B233383E8972CCD15EB18 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946429B1784FE2AB9643C7D7D04C075F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BBAC5C7D75A6B1EBA7C9EC1F74F5888 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99195E4207764744AEC07ECCBCD550EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28A6E1550FB8FCA2F1EC78112DDD733 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8FE3B1F545D2CCDA760369CC5FE81AA /* CoreData.framework in Frameworks */,
+				2D0CE3589267D784EF295192C7E6E9D2 /* Foundation.framework in Frameworks */,
+				F2E20C470B74A8834D80F264F838A9CF /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09AFF2DD9A3A8415E6593B520A35BA2A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D89FD668235A1E8CF14FC72656D31C8 /* Alamofire.modulemap */,
+				CC623EFB61B559C52789149460868AC8 /* Alamofire.xcconfig */,
+				19BAF2F3D6E68853D113D57440B4F23E /* Alamofire-dummy.m */,
+				3A2239B77FEE2A3E58E3DB9E4A8C5BB0 /* Alamofire-prefix.pch */,
+				B86E6E8478BC816F5903B5AE5156FE56 /* Alamofire-umbrella.h */,
+				BAEBE83E0B7974C99C834815D68A251F /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D8FFCAE6F5E6BC12B7D3AD3A2AF16AA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26CEC2CB26A2A69A38C945739A2235D1 /* Pods-MedStreak */ = {
+			isa = PBXGroup;
+			children = (
+				F495CE26B7DC0AC2A71C398F215F0C7A /* Info.plist */,
+				1152C6F3E56DB7B0138939197AE780EA /* Pods-MedStreak.modulemap */,
+				B03011A41AD6CCDA2B8CF1AB1F37FBD4 /* Pods-MedStreak-acknowledgements.markdown */,
+				C79BDB5B92B5558BAD65C59AA2341427 /* Pods-MedStreak-acknowledgements.plist */,
+				85658AFD048AD8A57A54533A8FEE03ED /* Pods-MedStreak-dummy.m */,
+				0A198CDB8F5CE3F84DE4A8AEBF5D21BE /* Pods-MedStreak-frameworks.sh */,
+				8492E6C6853FB95B6FAE55145782AF8E /* Pods-MedStreak-resources.sh */,
+				53EDDD66A2994225769F704290B5F420 /* Pods-MedStreak-umbrella.h */,
+				A2C6AFCCAA9E01500AA6DD6E5CEF8BDA /* Pods-MedStreak.debug.xcconfig */,
+				37F431595FF9611DEB26E288A84AA513 /* Pods-MedStreak.release.xcconfig */,
+			);
+			name = "Pods-MedStreak";
+			path = "Target Support Files/Pods-MedStreak";
+			sourceTree = "<group>";
+		};
+		46207FE8BE47167B32EB3EB5E547BC00 /* Pods-MedStreakUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B4C9282A1A02560DE95A82C42DCB4F18 /* Info.plist */,
+				D09314571DC25B3EEBB1E307CAFD710A /* Pods-MedStreakUITests.modulemap */,
+				265EAC8F6F6D0F4A74C2AD46ACB835EB /* Pods-MedStreakUITests-acknowledgements.markdown */,
+				8ACA719DC43A2E735C68C34BEC89EED5 /* Pods-MedStreakUITests-acknowledgements.plist */,
+				68D8E7EF3C0C87F5CE7A32F7B6D8C3C0 /* Pods-MedStreakUITests-dummy.m */,
+				F8216C20C3B8DD04D9018610E013EE73 /* Pods-MedStreakUITests-frameworks.sh */,
+				F2AAC9542E0A1B73DED5529708222FD6 /* Pods-MedStreakUITests-resources.sh */,
+				26BC49F6411C5C4B2C99895F3CD5FC8C /* Pods-MedStreakUITests-umbrella.h */,
+				E6E93810E9D2051D9178B7260F512531 /* Pods-MedStreakUITests.debug.xcconfig */,
+				D34BF5EF019D01CF8B6614FDF5CAD2BE /* Pods-MedStreakUITests.release.xcconfig */,
+			);
+			name = "Pods-MedStreakUITests";
+			path = "Target Support Files/Pods-MedStreakUITests";
+			sourceTree = "<group>";
+		};
+		52C45807A4B729A0886DD8855D75AE62 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F793AD2F9F822D11AE0F582A8923772 /* CareKit.modulemap */,
+				9046498065853ABDFBF496DBF9207B5B /* CareKit.xcconfig */,
+				09F2A631D171E5CD00CD50D6A7CDC5C3 /* CareKit-dummy.m */,
+				15A3F3705D485484C24AC21D426C4DA3 /* CareKit-prefix.pch */,
+				A0272695A7072E9D969B9C89A0B7AE6C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CareKit";
+			sourceTree = "<group>";
+		};
+		55956C7099F2E34DDF05DCD524D15C9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C8653CEB3BF33F3B7F4880BB5ED4806 /* Alamofire */,
+				A6609AED5385E138159ABE197468D1E9 /* CareKit */,
+				FABD059C6ECDB154D9660768843DD507 /* UICircularProgressRing */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5C8653CEB3BF33F3B7F4880BB5ED4806 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				F51EA7DE4F34DB9C7B92543B45906897 /* AFError.swift */,
+				581332D1FC307008B1DE93B03B0F45DC /* Alamofire.swift */,
+				0A866F682433411FBDFB8C9C06001599 /* DispatchQueue+Alamofire.swift */,
+				86B125471D8DBFC2B7D74B47FDC5ED1A /* MultipartFormData.swift */,
+				9FF6B5B5D6A17B7428256A97794CF1A0 /* NetworkReachabilityManager.swift */,
+				118EB66FA7051E7DBFFC8490746D2721 /* Notifications.swift */,
+				47A4DB23F0227B09F5FC7FAADED5A6D4 /* ParameterEncoding.swift */,
+				879DE399AEF54113CC78EEB2783C327E /* Request.swift */,
+				113DFCBA7C2AB9F4857FE3FA810F07EF /* Response.swift */,
+				DFCDED85923A9C6EB670111B5BD86392 /* ResponseSerialization.swift */,
+				BD7DB9B4D1B10D8526BD8A51EBEE11F1 /* Result.swift */,
+				3100D0EE4A0E5C7CBB8E9F2F9458BD94 /* ServerTrustPolicy.swift */,
+				8456DFE4A6CCCF8FF3159D855F70FD0F /* SessionDelegate.swift */,
+				960C64E1C868F7E534544C08A2418790 /* SessionManager.swift */,
+				68E4860EEB06DF736CC0B54E13463120 /* TaskDelegate.swift */,
+				F573C57A8E0076AF4A2518E146AED2FE /* Timeline.swift */,
+				DE8DA24046798F1F329E256217B4B08E /* Validation.swift */,
+				09AFF2DD9A3A8415E6593B520A35BA2A /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		5D8FFCAE6F5E6BC12B7D3AD3A2AF16AA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				078489CC50547192FFA29C47BA0E3A50 /* CoreData.framework */,
+				05EE07B4E0F3AC4F65876113C97A2568 /* Foundation.framework */,
+				8B2F3C31189ED03F9A898D42F1FAB89F /* HealthKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				55956C7099F2E34DDF05DCD524D15C9C /* Pods */,
+				F3E9A36391AB0F2D981324A693869318 /* Products */,
+				EEAA8AE8FEBC512CB6813959E0B1D6AA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		832A037C4786E99E15155E0EC6821279 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D1630E363BD21BCB8C3F4D4A62F766A6 /* ar.lproj */,
+				4E940060DAE436E5D1448052D3271856 /* Assets.xcassets */,
+				5038EA805F1A71BFEB28288443A646F6 /* ca.lproj */,
+				DD140816C30B684DB55464C21B22D291 /* cs.lproj */,
+				22976D16C43BB751EB5B280E5B198509 /* da.lproj */,
+				38CD9533E213F69F9414F55F365D893A /* de.lproj */,
+				EB13E38EC6B7A1ED86E4462BD7F94A28 /* el.lproj */,
+				53D0B4D9F55AD2A5E3517BEAC380F0E1 /* en.lproj */,
+				B4C0248461B3BEFFFC0EC49AB62C4B92 /* en_AU.lproj */,
+				913913CE274AB3E22D838023EA8DD1AB /* en_GB.lproj */,
+				B711DB9B91D6C109B95E5A4B09E87BFE /* es.lproj */,
+				D73B4302A5B911214320DE0C60B51E19 /* es_419.lproj */,
+				E6A41EB6E9C8240B03BFF89B860BFF71 /* es_MX.lproj */,
+				A2163B4CABF03BD087C382DD947A73E5 /* fi.lproj */,
+				96AF4AF1E66B2EF3E77C88723663849E /* fr.lproj */,
+				D66194F737F66728E33D2DB64179B3E4 /* fr_CA.lproj */,
+				4FC19F6CD9D5FCFFA6026C64D8F91F11 /* he.lproj */,
+				2862BF1EFC9DFCD437506BB76CE10950 /* hi.lproj */,
+				F33984029150F4EEBC183F3913319E1E /* hr.lproj */,
+				E65A8DBE4AECF371F4CC20B4F0E12ACC /* hu.lproj */,
+				31724A9E6C8A59743C65AC2E15D3459E /* id.lproj */,
+				90F6F06F38146E65E08CB943435C4812 /* it.lproj */,
+				7FB1FE47074A8BE4EB3463F760F6F008 /* ja.lproj */,
+				2B733DF76AC7FA7778E30D63201B12BB /* ko.lproj */,
+				4839B17AAFEE3A768A5A85BC7D37D530 /* ms.lproj */,
+				4BE092E7D9824D8AA3654A190331A0A6 /* nb.lproj */,
+				C82BC9DCE6B481F5966E62C18BBD88CE /* nl.lproj */,
+				FBB26D8F796D630C10E2568A6E02C38F /* no.lproj */,
+				88E8C9D1972D462883832549FF0241BB /* OCKCarePlanStore.xcdatamodeld */,
+				2CC72794F751BF541ACE4E082B444703 /* pl.lproj */,
+				FE9C8D790F637FD1B54FC18A351EB267 /* pt.lproj */,
+				958C0065DA8E4ED6D010FB0D13F11B8C /* pt_PT.lproj */,
+				2076C9A6B7FB21ECE8CA0B0A2E4A11FB /* ro.lproj */,
+				435964DDA66163FC3371FB41231EAEAE /* ru.lproj */,
+				D5B7F074579B565FF21C997D1D582BF0 /* sk.lproj */,
+				9EFA0EBAC4F3042A8F8FEFF6050EABEB /* sv.lproj */,
+				2C9F06C3E6F7FD973144C4842A1C58BB /* th.lproj */,
+				8879645663BBD7E11E9B53D619A933BA /* tr.lproj */,
+				852813020865E75D9B6D6069768C5324 /* uk.lproj */,
+				23B9BDA64ED93429E8F2E8506789BDB8 /* vi.lproj */,
+				4DA1B061DDF13C0BD5F38E9FA6F5C046 /* zh_CN.lproj */,
+				0844610B9E55525F8FF1FC050DE85976 /* zh_HK.lproj */,
+				E829F35837C77D2BA397CF5355CBA96A /* zh_TW.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A6609AED5385E138159ABE197468D1E9 /* CareKit */ = {
+			isa = PBXGroup;
+			children = (
+				146AA59950DAEF743C06E63029B75663 /* CareKit.h */,
+				1B6805CF2CBAD9DDA5E849EAF6C04B8E /* CareKit_Private.h */,
+				674D72CA5463AA4C0238569EA6E8E5C8 /* NSDateComponents+CarePlan.h */,
+				59EAADEEA023895AD3C03840569E03A9 /* NSDateComponents+CarePlan.m */,
+				460668564AF3B80B372D75981A970734 /* NSDateComponents+CarePlanInternal.h */,
+				FA22D6020641B5E90AAD28C124AAB058 /* OCKBadgePatientWidgetView.h */,
+				78E3F1A98CD3DD403DCCBADEB49DC3B1 /* OCKBadgePatientWidgetView.m */,
+				262163E3C2D6E5203D4CC26232528F9E /* OCKBarChart.h */,
+				4F47EE1CD8BB1187B458EF6B62D68A39 /* OCKBarChart.m */,
+				FDB0E090255A5EF9494CA2CAF9EC36EE /* OCKBarSeries.h */,
+				814F146F2D72DB57F3943DEFF64AD257 /* OCKBarSeries.m */,
+				62DFFC4924C01F9D1FEA4D537BB4F504 /* OCKCareCardAdditionalInfoTableViewCell.h */,
+				DFDB42DB1303AC1046DA3DED5E46B01C /* OCKCareCardAdditionalInfoTableViewCell.m */,
+				18B45DF6AF04393BD7065A676EEF36ED /* OCKCareCardButton.h */,
+				CD0C31BD5405710AD1A1F09A3A1B06FD /* OCKCareCardButton.m */,
+				3CE3F8EEDC4EFD5576CD9F0C2871A3CC /* OCKCareCardDetailHeaderView.h */,
+				9BFCD846B8563EE8812BBCA4A21AE166 /* OCKCareCardDetailHeaderView.m */,
+				8E6B1CF06EF29A3C3B129630855B2E83 /* OCKCareCardDetailViewController.h */,
+				88B95E2F460999C5998EA1314871F905 /* OCKCareCardDetailViewController.m */,
+				2A2FC01A0FA5EE6A84225D6D2330D5EE /* OCKCareCardInstructionsTableViewCell.h */,
+				4FB9CA9BC991D51C0E83CCB2EB48F608 /* OCKCareCardInstructionsTableViewCell.m */,
+				9087DDFDA5A01FE085D87C1AD47861F3 /* OCKCareCardTableViewCell.h */,
+				B3C37D81A259BE11D47CD7767F0C18FE /* OCKCareCardTableViewCell.m */,
+				274ED197082EBD5BA44EE45AF0B3314E /* OCKCareCardViewController.h */,
+				7145C3F896EC02B11788C860A42DED36 /* OCKCareCardViewController.m */,
+				AB083C2B2C516C7DD5819F1BAD84173A /* OCKCareContentsViewController.h */,
+				6550862D310D4A074BFCF870D6516601 /* OCKCareContentsViewController.m */,
+				27F3DC3BE242D144AD396573053A700B /* OCKCarePlanActivity.h */,
+				CDA48E759A70E8ACADB55331FD6E8A73 /* OCKCarePlanActivity.m */,
+				E2319FAF81A56BE609782FD30A20585B /* OCKCarePlanActivity_Internal.h */,
+				2A49FBB094DCBA5CD229D779F3E8E045 /* OCKCarePlanEvent.h */,
+				4570302DFD7B76466AEA443A725D95DF /* OCKCarePlanEvent.m */,
+				F7D5F6F6ECC3690CB459CFC21C91E1BE /* OCKCarePlanEvent_Internal.h */,
+				09430ED8868421A0E27B6556AF156D3C /* OCKCarePlanEventResult.h */,
+				02064B2F63296133824543763EA0F7DD /* OCKCarePlanEventResult.m */,
+				16FA91ACBE40161CEC6079869CD0C91A /* OCKCarePlanEventResult_Internal.h */,
+				AB1CE0E0143F06352C43CBC1B39F574E /* OCKCarePlanStore.h */,
+				2F2DDAD950E86E443DCCA3916B8E59BA /* OCKCarePlanStore.m */,
+				B1E7F46EC548D44081C2ABB04836401C /* OCKCarePlanStore_Internal.h */,
+				28B0D2D612729B2350736369CE044754 /* OCKCarePlanThreshold.h */,
+				C031B39DDE6910FF0636114E3910C768 /* OCKCarePlanThreshold.m */,
+				1439C5A7992ED5FE61E1C7B992024E26 /* OCKCareSchedule.h */,
+				B1C2A169318BD601EA79615374189C2F /* OCKCareSchedule.m */,
+				B8BE938F4704AB29AEE00DF39BB82BAA /* OCKCareSchedule_Internal.h */,
+				0F03A9969F59298599B557E993114CE1 /* OCKCareSchedule_Private.h */,
+				904B5BCCBFE902E14BEEFF54A6101FC4 /* OCKChart.h */,
+				9237131A888F2BC297E1AAC560C107AA /* OCKChart.m */,
+				1B59110C7C6888210422DF2A5079AE23 /* OCKColor.h */,
+				F6106E358C60E4C3748BB458C326FF59 /* OCKColor.m */,
+				FE2E8B4D0996221EFB65E2C3A5731594 /* OCKConnectDetailViewController.h */,
+				6BB99C41ADE7D258F90601E8F19979DC /* OCKConnectDetailViewController.m */,
+				92A80A3F06753783473FE8C6364BB48B /* OCKConnectHeaderView.h */,
+				3D8B0A357E8D0A9FA142C88A10E8FF46 /* OCKConnectHeaderView.m */,
+				E05F65836A94128AD6290A356F1E3BB4 /* OCKConnectMessageItem.h */,
+				480199A53FFA8B1FDA048FDC905A0028 /* OCKConnectMessageItem.m */,
+				278B6F098FBB28BDAB9D68D0006F8CFB /* OCKConnectMessagesViewController.h */,
+				4E7B24BB43415AEE766CC3E8280A4CE8 /* OCKConnectMessagesViewController.m */,
+				42C1F4036F29EB871B85372D487533A8 /* OCKConnectMessageTableViewCell.h */,
+				1E947808AE4C752DD65961A0A2927391 /* OCKConnectMessageTableViewCell.m */,
+				4A77C06F41C3751A4E135A20740E06CB /* OCKConnectTableViewCell.h */,
+				10B2CC49C55F8B6EC1C1D6C440B7E66E /* OCKConnectTableViewCell.m */,
+				57490497F99EC9FD318E9A9AA2719DD2 /* OCKConnectTableViewHeader.h */,
+				BC2F89910388802ACFD363D9B596F9DE /* OCKConnectTableViewHeader.m */,
+				3DA3DDBC5BDBE07D796BA60C505A65EA /* OCKConnectViewController.h */,
+				1915729FA9E0DCD2FAB19EC5544278E7 /* OCKConnectViewController.m */,
+				3FD9127F4B0C1BC4782F1A1CD4D92AB3 /* OCKContact.h */,
+				A6F3EB8BCFE36ACC21680CC93DF7C2CF /* OCKContact.m */,
+				C830429CBE6D5F90560EA1D1C5655EBD /* OCKContactInfo.h */,
+				CAE97FF2AA0515BB7DC071CC5670E475 /* OCKContactInfo.m */,
+				49ED70B79F12006332984BDAC24ED37D /* OCKContactInfoTableViewCell.h */,
+				57D39C3A4CC71A2D35C745F291E0BFCC /* OCKContactInfoTableViewCell.m */,
+				603F3AF704AE8EFD66D0D87B0681C2CE /* OCKContactSharingTableViewCell.h */,
+				61338424D2EDE3DD0D33A3A567E27B01 /* OCKContactSharingTableViewCell.m */,
+				DC8CD4F40ED14295A80E4716B8191872 /* OCKDefaultPatientWidgetView.h */,
+				AE240F60B21903E7537BD1BBD1CD27DD /* OCKDefaultPatientWidgetView.m */,
+				4CF297ADB6790B2AAAB9952E3DF99937 /* OCKDefines.h */,
+				8208D03FD957A34F0C083E6F3EBC1D22 /* OCKDefines_Private.h */,
+				9B258EEAAEB6FE25746EF42FD5262065 /* OCKDocument.h */,
+				205BD13F205D169847E12C73FEE4C7E8 /* OCKDocument.m */,
+				9CD2D2D08874B877DACB7C725727A5F2 /* OCKGlyph.h */,
+				50803FA990D0D462212491CAB11A11C4 /* OCKGlyph.m */,
+				F9908C685B58820B3935AF94E11DC48C /* OCKGlyph_Internal.h */,
+				E6EE71EA37C256A97607ACEEC5DA766F /* OCKGroupedBarChartView.h */,
+				6E7E9D8BD7E57EA4373C9C257847C4F7 /* OCKGroupedBarChartView.m */,
+				63E2C792D5D1569C524E83AB3421E42B /* OCKHeaderView.h */,
+				2F058945A74B47382EDFA0AD5F3BA2CF /* OCKHeaderView.m */,
+				E0FFAE1CCE7414764CA2CB2EE5C88BB4 /* OCKHelpers.h */,
+				636CBB801086A1C47CC2FC39696B7224 /* OCKHelpers.m */,
+				1A1E79EAFCF3178C82A3C264FDEF2D49 /* OCKHTMLPDFWriter.h */,
+				5D83376FA4ADC1DE35EEC52979A64520 /* OCKHTMLPDFWriter.m */,
+				E8DE69EA8927AB3CBC873A05FF2D16EC /* OCKImagePatientWidgetView.h */,
+				8E5A9FFA57440DA725E6E32C49852282 /* OCKImagePatientWidgetView.m */,
+				01191BDD6E6473C95EE43DD39ABAFE06 /* OCKInsightItem.h */,
+				CFC25C86B77AA84B0AD980BD6584AC62 /* OCKInsightItem.m */,
+				8709FFB4803F7F3F861D408A8BA87C51 /* OCKInsightsChartTableViewCell.h */,
+				783F265A5CDE8B339FEBBA28B252D015 /* OCKInsightsChartTableViewCell.m */,
+				43D70361AD3F5286EF1BF4CA72A22D51 /* OCKInsightsMessageTableViewCell.h */,
+				71DCE59640A92E8CF282E3439CF57798 /* OCKInsightsMessageTableViewCell.m */,
+				7AADB033B08A9543D6311E22BC7D6DD4 /* OCKInsightsRingTableViewCell.h */,
+				20722AF116BF1CAFBF3608E89344B43E /* OCKInsightsRingTableViewCell.m */,
+				0C47A3EA53AE4E7E3E91CAC1410071D7 /* OCKInsightsTableViewHeaderView.h */,
+				3A031BA5CEE09F02CBC5FC354C9E3BB4 /* OCKInsightsTableViewHeaderView.m */,
+				CAAEE2C011A60B83FBE93AC267A2E19A /* OCKInsightsViewController.h */,
+				87BDDAE46AA15B30A110C1CD3DB5D341 /* OCKInsightsViewController.m */,
+				BC2ACA17A3E3ED62B830522002B8D94A /* OCKLabel.h */,
+				770B55126C85EF266712AC7C600ECAF8 /* OCKLabel.m */,
+				6CFB4FA342ADCE26622FC151C2035876 /* OCKMessageItem.h */,
+				2E969F4151E89422B1E59B412C9907C8 /* OCKMessageItem.m */,
+				B08D16B616F9CC172DC50F4D44788535 /* OCKPatient.h */,
+				9B70BE59AD0460571C0A8FE957BBA4D2 /* OCKPatient.m */,
+				F6E4F207BF060778A98040F3169FA358 /* OCKPatientHeaderView.h */,
+				C4C9C872936F8CDD433B342A559629B8 /* OCKPatientHeaderView.m */,
+				E1997A75C704C749F7F8534A468BB552 /* OCKPatientWidget.h */,
+				8AC0F143E31E246A6EBC466BF14CC658 /* OCKPatientWidget.m */,
+				31EB8EADA44F14C43CEA7377BEE4B181 /* OCKPatientWidget_Internal.h */,
+				4C6394A903C95CEAB4191A04021E576E /* OCKPatientWidgetView.h */,
+				A4284C31E97D0CB99B0129C66F526FF3 /* OCKPatientWidgetView.m */,
+				DE3D3C9786B43664610867EBB8469F2B /* OCKReadOnlyTableViewCell.h */,
+				A132C8F2FA11DB0EACF7A6B18D97CC19 /* OCKReadOnlyTableViewCell.m */,
+				DE1C2BAAF2D5A554EE23CAA764B58C33 /* OCKRingButton.h */,
+				B93C27FA1B8F4C59FDB8B6CA1309F329 /* OCKRingButton.m */,
+				16B3E9BB5E03F4A04C217E5FFDF9C38A /* OCKRingItem.h */,
+				74C0B0BE49FC6FA402619F61BF166CD9 /* OCKRingItem.m */,
+				0F9308C82BBBB6E49EC83319AD2B98FD /* OCKRingView.h */,
+				571028BDB6B6E991156B4D264F89DEE7 /* OCKRingView.m */,
+				457C3C46698288F1D5C2EE6751DE3053 /* OCKStackedPatientWidgetView.h */,
+				9CDA3B0B0D0D3A283BFA810CC44C323A /* OCKStackedPatientWidgetView.m */,
+				B9669ABF2D1632F8285A8D5E03464F2E /* OCKSymptomTrackerTableViewCell.h */,
+				DCA9B5CCD60FCFDCCDA8C4BF3C20C10A /* OCKSymptomTrackerTableViewCell.m */,
+				DA5FC4C291D5266390F08FA140CAA48E /* OCKSymptomTrackerViewController.h */,
+				2AFFA836AB5BBE56AF81AA44CD80129A /* OCKSymptomTrackerViewController.m */,
+				29AE23DFDC2E47CDF464843F9A019F70 /* OCKTableViewCell.h */,
+				4D365CD94D99F1E86C55B5838AD764F1 /* OCKTableViewCell.m */,
+				580F078CCF1958971FF65DCD715E0B57 /* OCKTextView.h */,
+				4A9C7E591F320599500F59DC85E97FBA /* OCKTextView.m */,
+				7709E4A25CE5BA62A24980CA7B27B083 /* OCKWeekLabelsView.h */,
+				E364AF3F402D1C9F7C904FEE341EAA15 /* OCKWeekLabelsView.m */,
+				6F1DE6FA10FEE68B120B5FF3E5FC94C7 /* OCKWeekView.h */,
+				E5741E14CAA02BAB3300C519B426BD27 /* OCKWeekView.m */,
+				AF1D1DB8A5BDE29520EEE683E384AF11 /* OCKWeekViewController.h */,
+				7A9ECE4B8B6D881BAA26439FFF102D98 /* OCKWeekViewController.m */,
+				832A037C4786E99E15155E0EC6821279 /* Resources */,
+				52C45807A4B729A0886DD8855D75AE62 /* Support Files */,
+			);
+			name = CareKit;
+			path = CareKit;
+			sourceTree = "<group>";
+		};
+		B0AEB685B83FC6DBC9925E5E04305520 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C73AB8ED1C40FD2F89BA60A4DD8EE89A /* Info.plist */,
+				5D7C50C10C89A87957A158B293E8CCC7 /* UICircularProgressRing.modulemap */,
+				DDF7780A8680B8FE89235BA74A4B835C /* UICircularProgressRing.xcconfig */,
+				A7CBD7952A652F7876A8A079DA446F45 /* UICircularProgressRing-dummy.m */,
+				34347FB86D6FF472297499EA85BE21C9 /* UICircularProgressRing-prefix.pch */,
+				922719B7AEBC0C488DE03DB2317A1485 /* UICircularProgressRing-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UICircularProgressRing";
+			sourceTree = "<group>";
+		};
+		EEAA8AE8FEBC512CB6813959E0B1D6AA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				26CEC2CB26A2A69A38C945739A2235D1 /* Pods-MedStreak */,
+				F96A3F524CAD26AABE0A9F709739AE28 /* Pods-MedStreakTests */,
+				46207FE8BE47167B32EB3EB5E547BC00 /* Pods-MedStreakUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F3E9A36391AB0F2D981324A693869318 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7754362C2EF6407C8B44C4D354E1599C /* Alamofire.framework */,
+				45E1529ECE8BC105D3E5E777F81E232B /* CareKit.framework */,
+				0F2CB1473BF07D20C9D8F4C736D8C875 /* Pods_MedStreak.framework */,
+				0DEDDFF9188D80958CDB582296C3AB15 /* Pods_MedStreakTests.framework */,
+				90F496EE87730EC61F154C37A88F27FE /* Pods_MedStreakUITests.framework */,
+				9715EB3F4110058AA3FA563B2CFCEAED /* UICircularProgressRing.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F96A3F524CAD26AABE0A9F709739AE28 /* Pods-MedStreakTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D603707D4ED49E0DB1B55A46CF0FCE9 /* Info.plist */,
+				181EB0768BD3C82192D9C756F688EF7A /* Pods-MedStreakTests.modulemap */,
+				67C8EB2B310B4DBA0DDC4AA7E32D46B1 /* Pods-MedStreakTests-acknowledgements.markdown */,
+				A330681F1A73FCC7D2F6DBDE7B8F9141 /* Pods-MedStreakTests-acknowledgements.plist */,
+				53295A301822E377AE8ABD9A036637E3 /* Pods-MedStreakTests-dummy.m */,
+				B4D28A65A1F15AA87F5132C2BC467FD7 /* Pods-MedStreakTests-frameworks.sh */,
+				084205123B1739BF01C3CFD95084516D /* Pods-MedStreakTests-resources.sh */,
+				DAFD1FBD464FBFE20BEB004D6E6D5423 /* Pods-MedStreakTests-umbrella.h */,
+				D71CCD1B600B2F6F5BDAFB08A60B72EB /* Pods-MedStreakTests.debug.xcconfig */,
+				2F6DF529AFD9D39E09A52550CD740A5E /* Pods-MedStreakTests.release.xcconfig */,
+			);
+			name = "Pods-MedStreakTests";
+			path = "Target Support Files/Pods-MedStreakTests";
+			sourceTree = "<group>";
+		};
+		FABD059C6ECDB154D9660768843DD507 /* UICircularProgressRing */ = {
+			isa = PBXGroup;
+			children = (
+				D4E8E228BB7C751A24E3716A2F55497D /* UICircularProgressRing.h */,
+				706FDAC215FFB171C3E86A06481636A4 /* UICircularProgressRing.swift */,
+				EF006F9827E7D82C99AD603EAA0EA36A /* UICircularProgressRingDelegate.swift */,
+				0A4DD020C485A6E11142B4BD0E27BFAF /* UICircularProgressRingGradientPosition.swift */,
+				9726430ACE377DFA5C263F9A3A34B297 /* UICircularProgressRingLayer.swift */,
+				4EBF301C1688C2E3566AE8FFD41E5DF7 /* UICircularProgressRingStyle.swift */,
+				B0AEB685B83FC6DBC9925E5E04305520 /* Support Files */,
+			);
+			name = UICircularProgressRing;
+			path = UICircularProgressRing;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2974A537BA1283D1DF653AF393BFC50E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3E2610032946F2ECED63CD4F50965FD /* CareKit.h in Headers */,
+				B2DCACAF521522B2E5C7DFFB3A5F5DA8 /* CareKit_Private.h in Headers */,
+				53AC10386A7D7D69C99490E4441DF110 /* NSDateComponents+CarePlan.h in Headers */,
+				2B28C36E0CEA060726DAF3709BF9D787 /* NSDateComponents+CarePlanInternal.h in Headers */,
+				6641D46F69A13732350B9582A8489205 /* OCKBadgePatientWidgetView.h in Headers */,
+				F5F30AE31A7F0108D8749E34E589773F /* OCKBarChart.h in Headers */,
+				032FA838625DAAD78EFADA2B36E6AA8A /* OCKBarSeries.h in Headers */,
+				30535C1B1CAD55D0DEE3AE098EC08746 /* OCKCareCardAdditionalInfoTableViewCell.h in Headers */,
+				2F8877E533061492C47EAF9ED9EBC169 /* OCKCareCardButton.h in Headers */,
+				EDEEA620EFD5B838FD16FD59ECFD968A /* OCKCareCardDetailHeaderView.h in Headers */,
+				930ED6C6A6EF7665C753A4FAD68390AD /* OCKCareCardDetailViewController.h in Headers */,
+				B68E49C875D588250E3D6AFA07C5A55C /* OCKCareCardInstructionsTableViewCell.h in Headers */,
+				39680D80ABA025729F853CFB7A9F999E /* OCKCareCardTableViewCell.h in Headers */,
+				CFEB7237BA3D75EA5FF7611D10EDA53A /* OCKCareCardViewController.h in Headers */,
+				46960280379DB8F91C58F8561A048EE8 /* OCKCareContentsViewController.h in Headers */,
+				748C3668498FF50EFCA3F2B59FF002CF /* OCKCarePlanActivity.h in Headers */,
+				E829E57FE063242CF50199DB15E85870 /* OCKCarePlanActivity_Internal.h in Headers */,
+				90B2484DA24094074B038CBCCB2BF19C /* OCKCarePlanEvent.h in Headers */,
+				FBF39224814F50AA07DEFF4739B80FDA /* OCKCarePlanEvent_Internal.h in Headers */,
+				582584693CFE51E59CB3637868BF06F0 /* OCKCarePlanEventResult.h in Headers */,
+				FD74911E266B99FF01F4466291A478C9 /* OCKCarePlanEventResult_Internal.h in Headers */,
+				F46CE95B650A2C9802E409E2ABAADE62 /* OCKCarePlanStore.h in Headers */,
+				2661EFC8FDE3F750CF200E97A83D7EF0 /* OCKCarePlanStore_Internal.h in Headers */,
+				DD77E000CA2BEB961063AB0F083B9249 /* OCKCarePlanThreshold.h in Headers */,
+				4510F4F52E3FDCE4B3E57E76573346B7 /* OCKCareSchedule.h in Headers */,
+				6981454227B675D6665C75D0D0FB0557 /* OCKCareSchedule_Internal.h in Headers */,
+				D47626C17897A4683CB17C4A0329A38A /* OCKCareSchedule_Private.h in Headers */,
+				543CE19F76ED37FE9B4089A0DFD7FEB4 /* OCKChart.h in Headers */,
+				FC59D84E82EF457A9B6DCEB88583ED27 /* OCKColor.h in Headers */,
+				39E949EE36230F86A039CCEC291165A5 /* OCKConnectDetailViewController.h in Headers */,
+				8CF8604EBD2A13172889DCF7295F4A5C /* OCKConnectHeaderView.h in Headers */,
+				E8FFF60032A9A10AE0575FF776FE8447 /* OCKConnectMessageItem.h in Headers */,
+				A0A4F7D5A37BF90C1311AB56EFD31AFB /* OCKConnectMessagesViewController.h in Headers */,
+				72AD9E5A81DA6C84DCF701CFC8FB44C4 /* OCKConnectMessageTableViewCell.h in Headers */,
+				42EAC2847D223AA3CB062532A7C5447C /* OCKConnectTableViewCell.h in Headers */,
+				1C5A99DE81E9B0486237CED0A70CF8CB /* OCKConnectTableViewHeader.h in Headers */,
+				82B3D43374A461F67A2AB93B7A06CEA3 /* OCKConnectViewController.h in Headers */,
+				F3ACAE0F3E9B96D84CE7D9BD9AF7E8B9 /* OCKContact.h in Headers */,
+				1374B6E32400E4BF885F76113B458A3A /* OCKContactInfo.h in Headers */,
+				4549D57D84081C948859A536EA9E5B6F /* OCKContactInfoTableViewCell.h in Headers */,
+				5B9E2696E72423EB2FCBE0576704981A /* OCKContactSharingTableViewCell.h in Headers */,
+				7C1F7B49605861D7BBCE3420B1F19C97 /* OCKDefaultPatientWidgetView.h in Headers */,
+				D689D1449F731D56B243273E235FB00F /* OCKDefines.h in Headers */,
+				CE3C598BACC38AA831693D309460C6CB /* OCKDefines_Private.h in Headers */,
+				7E02EAEFAAED86D153B747DBB7A8EAE2 /* OCKDocument.h in Headers */,
+				DAD6C8772D5892054B8C33BF9A9DB5D0 /* OCKGlyph.h in Headers */,
+				184924CB443C805E5F6CD7B32E3F617E /* OCKGlyph_Internal.h in Headers */,
+				0D32C5F8C07761FAA85B3D96CD994904 /* OCKGroupedBarChartView.h in Headers */,
+				B863F01696F363719E017C92195565D0 /* OCKHeaderView.h in Headers */,
+				0BBC694F2BBBC30A6E7C9BF74869FF28 /* OCKHelpers.h in Headers */,
+				EF638CE65835BD528C13415C78E166C9 /* OCKHTMLPDFWriter.h in Headers */,
+				D4078509D5BC459DF7AF7989549EE5DE /* OCKImagePatientWidgetView.h in Headers */,
+				95DE5B6AFC5DED25B4F083C559B962D8 /* OCKInsightItem.h in Headers */,
+				C91BC860F9D73DF49FFABF59A606682B /* OCKInsightsChartTableViewCell.h in Headers */,
+				E17C0F9FF99240A287FB0B1C4BCF12F4 /* OCKInsightsMessageTableViewCell.h in Headers */,
+				4E34FB74A4879C322FAED323230EDFC7 /* OCKInsightsRingTableViewCell.h in Headers */,
+				914B3CC9C4EC37744DB7A05F9F23CD01 /* OCKInsightsTableViewHeaderView.h in Headers */,
+				5A12FA5AB61277F9A7DD04955444C504 /* OCKInsightsViewController.h in Headers */,
+				4368960A0F264EE3BC23C468EF22B63A /* OCKLabel.h in Headers */,
+				77FE8F34E29A6D48CF1DA1AB019237B5 /* OCKMessageItem.h in Headers */,
+				8631935F0D6E27EB4B132F1B35667EE6 /* OCKPatient.h in Headers */,
+				F67F6493C226289A40F4F5ED4EEB16E2 /* OCKPatientHeaderView.h in Headers */,
+				B53FEEBD184A4EDBF5E5190A44DCDEEA /* OCKPatientWidget.h in Headers */,
+				A909B98D5B1CC834208210ECEDD37D3D /* OCKPatientWidget_Internal.h in Headers */,
+				B42685ACA843D34992FEF4C23A1E7D24 /* OCKPatientWidgetView.h in Headers */,
+				B496560322BF3ADFE86EB15CF4AAFD53 /* OCKReadOnlyTableViewCell.h in Headers */,
+				79B8E6232F98E9DCE9D4F7136BF1D383 /* OCKRingButton.h in Headers */,
+				2D019AC4EBD53AC1BCA0C9EB2D03375C /* OCKRingItem.h in Headers */,
+				D69165876105E1D6CA3251793A428FD2 /* OCKRingView.h in Headers */,
+				6CFD169A23386546AFF31160DB8EB0E4 /* OCKStackedPatientWidgetView.h in Headers */,
+				EEF644784B3185C351477723DD20AF2B /* OCKSymptomTrackerTableViewCell.h in Headers */,
+				3F9D3D05C86E75A8BED7E45589BE81B8 /* OCKSymptomTrackerViewController.h in Headers */,
+				E3E097E2E04BB6CECCF16E34D57BCCAE /* OCKTableViewCell.h in Headers */,
+				CED9F49FDAB9275580B3FB7C27B56FB9 /* OCKTextView.h in Headers */,
+				C409F0932C67248309A5A97ED372DFC2 /* OCKWeekLabelsView.h in Headers */,
+				E27BA0362434D290E945F65C8D08A1D2 /* OCKWeekView.h in Headers */,
+				681A638AFF7AC94CFEEF9E3D180E54F5 /* OCKWeekViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57A01CFB4090449C95405A8FBD2E4CEC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E676BCB2C50FA3556B699CDA179FA68 /* Pods-MedStreakTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85AF5EE8F383D1B0BA3D9520C1A10652 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A776A6F3E9DD9FD1164CEAEAD1BB61BA /* Pods-MedStreakUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8614ADF45C0F8108B5D8EF031E4FAF98 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94A5559E9CEE5EFAED52DA72F17B3202 /* UICircularProgressRing-umbrella.h in Headers */,
+				7E403B16121E5283523B043A9E999294 /* UICircularProgressRing.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8119297471C8B541DCC7A76BFFDE35D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F3BFB4C79B5E3CD64544C5875BEBF03 /* Pods-MedStreak-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7B2C803AECF0C5BAABE2742E8B7EADC8 /* CareKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7A55D6F7B362B5A640FD103731E20D0 /* Build configuration list for PBXNativeTarget "CareKit" */;
+			buildPhases = (
+				5EFCEE14403E1E53721362FE3F438B9E /* Sources */,
+				A28A6E1550FB8FCA2F1EC78112DDD733 /* Frameworks */,
+				2974A537BA1283D1DF653AF393BFC50E /* Headers */,
+				8CB4D69D711EC1584EC0475283965C47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CareKit;
+			productName = CareKit;
+			productReference = 45E1529ECE8BC105D3E5E777F81E232B /* CareKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8171E9BFA35235614ECF41B3430FFAA5 /* Pods-MedStreak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C87467F2FED8EB292F6B733B03572609 /* Build configuration list for PBXNativeTarget "Pods-MedStreak" */;
+			buildPhases = (
+				E76E82F73BED7EB0A241F100BF0F5CDF /* Sources */,
+				1CEECA77684B9AEE209A79BAC363B63C /* Frameworks */,
+				C8119297471C8B541DCC7A76BFFDE35D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				446712E82DAD787E4CE987395BB8A95C /* PBXTargetDependency */,
+				91BD4E724FC108EC079955CFBFF9EC24 /* PBXTargetDependency */,
+				CD4C5035126F6A60F02709EB3E62A583 /* PBXTargetDependency */,
+			);
+			name = "Pods-MedStreak";
+			productName = "Pods-MedStreak";
+			productReference = 0F2CB1473BF07D20C9D8F4C736D8C875 /* Pods_MedStreak.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				32B9974868188C4803318E36329C87FE /* Sources */,
+				99195E4207764744AEC07ECCBCD550EB /* Frameworks */,
+				B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 7754362C2EF6407C8B44C4D354E1599C /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B4FFF3E720D4B680B03DE7DA3B2D8EE9 /* UICircularProgressRing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAF4537DD063F6328B6DC4935EF7B490 /* Build configuration list for PBXNativeTarget "UICircularProgressRing" */;
+			buildPhases = (
+				A748C8587B33FC5CAC9780153E7D72B4 /* Sources */,
+				946429B1784FE2AB9643C7D7D04C075F /* Frameworks */,
+				8614ADF45C0F8108B5D8EF031E4FAF98 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UICircularProgressRing;
+			productName = UICircularProgressRing;
+			productReference = 9715EB3F4110058AA3FA563B2CFCEAED /* UICircularProgressRing.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E824BCA803CD7AEE44792BD28156DCD6 /* Pods-MedStreakUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 981A85324841A5D88F220AD6B2585EF1 /* Build configuration list for PBXNativeTarget "Pods-MedStreakUITests" */;
+			buildPhases = (
+				59E12B3552446EA09C5FBF749C14307D /* Sources */,
+				2602E30364628AB66EEDAE49B83A2C39 /* Frameworks */,
+				85AF5EE8F383D1B0BA3D9520C1A10652 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B647F2ED40A840B772A8405329EE76E6 /* PBXTargetDependency */,
+			);
+			name = "Pods-MedStreakUITests";
+			productName = "Pods-MedStreakUITests";
+			productReference = 90F496EE87730EC61F154C37A88F27FE /* Pods_MedStreakUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F699461BD1D9FA4D64EFFDE084793160 /* Pods-MedStreakTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCFD758C9332E9952A72EF7FA7790BB8 /* Build configuration list for PBXNativeTarget "Pods-MedStreakTests" */;
+			buildPhases = (
+				4FD1C8352A69C5D85FE9C2012B3603E4 /* Sources */,
+				27CF9B1CB8A2134FBDC40D162A97D872 /* Frameworks */,
+				57A01CFB4090449C95405A8FBD2E4CEC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				391B9FDE37C09EAE725E30014F17AAC8 /* PBXTargetDependency */,
+			);
+			name = "Pods-MedStreakTests";
+			productName = "Pods-MedStreakTests";
+			productReference = 0DEDDFF9188D80958CDB582296C3AB15 /* Pods_MedStreakTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F3E9A36391AB0F2D981324A693869318 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */,
+				7B2C803AECF0C5BAABE2742E8B7EADC8 /* CareKit */,
+				8171E9BFA35235614ECF41B3430FFAA5 /* Pods-MedStreak */,
+				F699461BD1D9FA4D64EFFDE084793160 /* Pods-MedStreakTests */,
+				E824BCA803CD7AEE44792BD28156DCD6 /* Pods-MedStreakUITests */,
+				B4FFF3E720D4B680B03DE7DA3B2D8EE9 /* UICircularProgressRing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CB4D69D711EC1584EC0475283965C47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2C4B33A4BD4081F12DB70E7AB9AB301 /* ar.lproj in Resources */,
+				EF4465FEEAA8C108A6127BCAA2108C50 /* Assets.xcassets in Resources */,
+				78B7D8E46D8E8F9AE01C156138BDC373 /* ca.lproj in Resources */,
+				AAC81CBC0C0363261A1BD09086146F60 /* cs.lproj in Resources */,
+				124FF6F09B8A98D088214F812115E934 /* da.lproj in Resources */,
+				0CEA8D9574FB3E87DC7D9CAB1200A467 /* de.lproj in Resources */,
+				905953DA73EBCCDA04FC94CB5D9A1DA2 /* el.lproj in Resources */,
+				FA12645070A374F8E9C88EEE9E86670C /* en.lproj in Resources */,
+				E45007533BB25C08CEAE6A7131679460 /* en_AU.lproj in Resources */,
+				9CB6320378DC96D0663A9C7C52BB7EB3 /* en_GB.lproj in Resources */,
+				3AB15E88AFFAE493B750AC0FA0011076 /* es.lproj in Resources */,
+				AB66CB1AC3AAFF87DAA4A90841E0AB9D /* es_419.lproj in Resources */,
+				64C396B50A763A6BBA88B4F203502C63 /* es_MX.lproj in Resources */,
+				E5E27EF217D5C93FA80326F5B9E72B44 /* fi.lproj in Resources */,
+				F0A237525BCDD7C2CD8260925F584692 /* fr.lproj in Resources */,
+				58DF554E959E15C0666737447BC71F37 /* fr_CA.lproj in Resources */,
+				8358D66BA7FD6905F6A31FC0882582FA /* he.lproj in Resources */,
+				B6E09F4841ECB703231808E307FD54DA /* hi.lproj in Resources */,
+				6CF7ABA6E78A85D511E7EE26EC23E26D /* hr.lproj in Resources */,
+				2FD2517B1CF6AA2FF5AE7E58CF32006E /* hu.lproj in Resources */,
+				2B7A3D093E3E95E9E148035E3421F728 /* id.lproj in Resources */,
+				41B018ED7FB84191DA50EC1A45D2C852 /* it.lproj in Resources */,
+				6D965644F26CB932D3EFF472CB6D8676 /* ja.lproj in Resources */,
+				7AE53AFD7DCFFDD5E96ED2F49A306EA4 /* ko.lproj in Resources */,
+				21B117DE880C278D16AF68B8F1940C0E /* ms.lproj in Resources */,
+				8E23010761B5AD9565FEACE02ABA4E14 /* nb.lproj in Resources */,
+				FC2EEC78C38E02FFAF639890B16D73CD /* nl.lproj in Resources */,
+				AF6293A6F71CA1368B3ADF2B2A9F5808 /* no.lproj in Resources */,
+				07B6E2A1BD95ADA275AA07AD4BA53C3C /* pl.lproj in Resources */,
+				B5FEC45E2CA6852BB0A66655A93ED5BC /* pt.lproj in Resources */,
+				1FDC36991A8C3E64611A13FC59BD01C5 /* pt_PT.lproj in Resources */,
+				F51E38B2C9BA29EC16743C0C85A3330F /* ro.lproj in Resources */,
+				355B3AA3F3D1098012FA1FEC4F267E3A /* ru.lproj in Resources */,
+				2C991EC2C17FCD8660AD91BB070C7930 /* sk.lproj in Resources */,
+				D2FFD17A75799FCEA7E649E5C0571E3F /* sv.lproj in Resources */,
+				CD208484F36BE7282000A9E1F36B81E4 /* th.lproj in Resources */,
+				479C3E6715916CC30563B970E7853ADB /* tr.lproj in Resources */,
+				BB7FFB9FA2FFBDC97284FB5BE995B5B4 /* uk.lproj in Resources */,
+				DB99FD2EA0B0F0D4115F49DA4F20733C /* vi.lproj in Resources */,
+				C0042EDB2AD212D15A0D0C1B9766450C /* zh_CN.lproj in Resources */,
+				90B1FA785F43CD57A07788F56C60AF51 /* zh_HK.lproj in Resources */,
+				9B69123BE56D7E84C5EB0BECB4E4B1C4 /* zh_TW.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32B9974868188C4803318E36329C87FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */,
+				A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */,
+				F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */,
+				61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */,
+				B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */,
+				A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */,
+				EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */,
+				BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */,
+				5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */,
+				CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */,
+				F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */,
+				7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */,
+				62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */,
+				7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */,
+				AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */,
+				3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */,
+				10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */,
+				BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD1C8352A69C5D85FE9C2012B3603E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904A79A2E760C9011982729DF5FE8F79 /* Pods-MedStreakTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59E12B3552446EA09C5FBF749C14307D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4C54CB4F61E4C73168779262183975 /* Pods-MedStreakUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EFCEE14403E1E53721362FE3F438B9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5183515DBD31823DC3BBBC1950BF222D /* CareKit-dummy.m in Sources */,
+				A9ED0F67124BBF207EB129379ADAC344 /* NSDateComponents+CarePlan.m in Sources */,
+				48F7053A2E3422385CA29F37278AC1D8 /* OCKBadgePatientWidgetView.m in Sources */,
+				F0BBCE40D1E46470B687F2C2F6481519 /* OCKBarChart.m in Sources */,
+				84940312969D58F900D9832FD42C066B /* OCKBarSeries.m in Sources */,
+				E99D2A7605B2F1D94E708B9FA62E45A2 /* OCKCareCardAdditionalInfoTableViewCell.m in Sources */,
+				81D5F3571DEE99A578AE32F769A92E90 /* OCKCareCardButton.m in Sources */,
+				CAB4C49B482C49763F4F245FAC4ED86C /* OCKCareCardDetailHeaderView.m in Sources */,
+				698EEAC080278852AFCE81846294407C /* OCKCareCardDetailViewController.m in Sources */,
+				62AC40FAED79F50B856C16831823C07C /* OCKCareCardInstructionsTableViewCell.m in Sources */,
+				A0F1851BE6B98C2CF8E2D89E7D56AA94 /* OCKCareCardTableViewCell.m in Sources */,
+				6B6B42F5EE1FD0275CDE07DBBA9368A2 /* OCKCareCardViewController.m in Sources */,
+				67AAA3B3497B65F768C533F4EE07B429 /* OCKCareContentsViewController.m in Sources */,
+				4B8034A05AB9F2B7195FE3EFB69A3B6E /* OCKCarePlanActivity.m in Sources */,
+				9E6DA314BB726935CEDB4562DA002C92 /* OCKCarePlanEvent.m in Sources */,
+				0421FDEF67764BA939D1EB078322F3C0 /* OCKCarePlanEventResult.m in Sources */,
+				0C861020C4EAD9BB75B3B6CC8FD50D7E /* OCKCarePlanStore.m in Sources */,
+				93BF4EA5EC10E0589122029D7211323B /* OCKCarePlanStore.xcdatamodeld in Sources */,
+				FE9C98FB4D719FC83C03EB9488EE8E33 /* OCKCarePlanThreshold.m in Sources */,
+				C64A4A05B65CB12ED48289668E6F412B /* OCKCareSchedule.m in Sources */,
+				9EFD0A9E955BE1A005061A59E8474F44 /* OCKChart.m in Sources */,
+				898D0617D02FD5298424E47019262615 /* OCKColor.m in Sources */,
+				87B3FCA3F59CA5068F6A7102D6BFE215 /* OCKConnectDetailViewController.m in Sources */,
+				28DFD053EBF453060123F7CD4CD8455D /* OCKConnectHeaderView.m in Sources */,
+				5CA704B0CF52CA05A7D3AC02B8523B09 /* OCKConnectMessageItem.m in Sources */,
+				76C3FF60D87A0A86324EDD8C61D33098 /* OCKConnectMessagesViewController.m in Sources */,
+				2BD5CA517CC1A65A2C69F3BB30701610 /* OCKConnectMessageTableViewCell.m in Sources */,
+				835C0B0DCEF007298C37F9BD19B6A3E6 /* OCKConnectTableViewCell.m in Sources */,
+				3E399E3AC64C6CAE7F9DC0072D0C8A05 /* OCKConnectTableViewHeader.m in Sources */,
+				0B88DD411F6012BBE1F29F488AFA0B55 /* OCKConnectViewController.m in Sources */,
+				62643F83E9868699952380E1888181B7 /* OCKContact.m in Sources */,
+				21C36747FAC900871B8B8F1E48B629F1 /* OCKContactInfo.m in Sources */,
+				D32074C16625C551C4901EB6A423DBDD /* OCKContactInfoTableViewCell.m in Sources */,
+				D033C69C525EE563DD9AE89EA2FFB1D0 /* OCKContactSharingTableViewCell.m in Sources */,
+				C15BC712843B14E219C045B54EFDEC21 /* OCKDefaultPatientWidgetView.m in Sources */,
+				55451AEFAF744A57752FB8FD7EBA7C6A /* OCKDocument.m in Sources */,
+				1162A3AB7DBD4F2D44AA60BCC0EC453E /* OCKGlyph.m in Sources */,
+				8A64F43D79100128B757BF1869EFA6F0 /* OCKGroupedBarChartView.m in Sources */,
+				21F130E809338E2136F117E15CF8504B /* OCKHeaderView.m in Sources */,
+				EEEAD9850F795F98FA92B4746B6120A7 /* OCKHelpers.m in Sources */,
+				5F6948728C15149575F775645A1C470C /* OCKHTMLPDFWriter.m in Sources */,
+				D11FB20ADFE74636FAC83DDDAFCEF14E /* OCKImagePatientWidgetView.m in Sources */,
+				C3B1CC4312A8D336C89BD5C544D4ABD9 /* OCKInsightItem.m in Sources */,
+				D11EDB629F9AACA2DD4546828A02742C /* OCKInsightsChartTableViewCell.m in Sources */,
+				03B62CE02D8CD04B4855752CDD187A9D /* OCKInsightsMessageTableViewCell.m in Sources */,
+				31DF8F4804173B51C049990EA640824A /* OCKInsightsRingTableViewCell.m in Sources */,
+				D6BF83CEBC9E41644F435704C078E0E1 /* OCKInsightsTableViewHeaderView.m in Sources */,
+				10974D06ADC198095A564EAA0199DC37 /* OCKInsightsViewController.m in Sources */,
+				F099FC0C5B0AF506A9C7136240D9AE25 /* OCKLabel.m in Sources */,
+				08BB82012D9D7313CC3CCFC5B1654922 /* OCKMessageItem.m in Sources */,
+				36D8AC390E09F3E2428DC9F01D8CB615 /* OCKPatient.m in Sources */,
+				360904A21EB9C178A06EC31E02652173 /* OCKPatientHeaderView.m in Sources */,
+				00D9E9C3BD88159938530E149668A8DE /* OCKPatientWidget.m in Sources */,
+				050CF929F0E232A47B65A49A5E38B3A1 /* OCKPatientWidgetView.m in Sources */,
+				184BD9ADC482D57C4E99E0618797197E /* OCKReadOnlyTableViewCell.m in Sources */,
+				9F929149AA287614470F4E4BFDF54A7D /* OCKRingButton.m in Sources */,
+				EB53EC9009FD75E0AFF0B899D7FF2344 /* OCKRingItem.m in Sources */,
+				FFC4B016027B209A527E942403CC689A /* OCKRingView.m in Sources */,
+				B3EED6688C246B3AB942CEFB9FB35449 /* OCKStackedPatientWidgetView.m in Sources */,
+				B6FF1D23D8D8BEFF8F1E20DDEDC96646 /* OCKSymptomTrackerTableViewCell.m in Sources */,
+				4A1EECB36FA2ADE6688C5C22FF13223F /* OCKSymptomTrackerViewController.m in Sources */,
+				FE2FB597E1EDCC4210A6EB38DF6E8827 /* OCKTableViewCell.m in Sources */,
+				A6AFA8E738AA4F1994A0C014BA635FD0 /* OCKTextView.m in Sources */,
+				4CC4FFB7329281AAC0BC4DB11A052EC4 /* OCKWeekLabelsView.m in Sources */,
+				91F3B9052AB2BAAC0035D91E35A1FE88 /* OCKWeekView.m in Sources */,
+				876D3EFF687497651A266B0FAF7225DC /* OCKWeekViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A748C8587B33FC5CAC9780153E7D72B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C0D139625C65A72435B60F3F3EA04E5 /* UICircularProgressRing-dummy.m in Sources */,
+				19AA99844A5E457D2EAD05D0F2FF015C /* UICircularProgressRing.swift in Sources */,
+				C934BF88EB6784CBD11DBCEF936D6D8A /* UICircularProgressRingDelegate.swift in Sources */,
+				383A57D7A78CF39A3F19646722433BEF /* UICircularProgressRingGradientPosition.swift in Sources */,
+				44B528D7B0C169F64AB4CD61FC556DF9 /* UICircularProgressRingLayer.swift in Sources */,
+				B87A24E1E090A7D710BFAEE24C9DC2B1 /* UICircularProgressRingStyle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E76E82F73BED7EB0A241F100BF0F5CDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				447FCA7517257A0923D862C4F9D2686E /* Pods-MedStreak-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		391B9FDE37C09EAE725E30014F17AAC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MedStreak";
+			target = 8171E9BFA35235614ECF41B3430FFAA5 /* Pods-MedStreak */;
+			targetProxy = 6C2ED9059808D20BC1A85827F06849E1 /* PBXContainerItemProxy */;
+		};
+		446712E82DAD787E4CE987395BB8A95C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
+			targetProxy = D1D66AFF794072EE04E501B3792702A0 /* PBXContainerItemProxy */;
+		};
+		91BD4E724FC108EC079955CFBFF9EC24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CareKit;
+			target = 7B2C803AECF0C5BAABE2742E8B7EADC8 /* CareKit */;
+			targetProxy = 922D9380F628821C50608B1EA0B08BFB /* PBXContainerItemProxy */;
+		};
+		B647F2ED40A840B772A8405329EE76E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MedStreak";
+			target = 8171E9BFA35235614ECF41B3430FFAA5 /* Pods-MedStreak */;
+			targetProxy = 3A7A115724CFF5F437F336516BD45F6C /* PBXContainerItemProxy */;
+		};
+		CD4C5035126F6A60F02709EB3E62A583 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UICircularProgressRing;
+			target = B4FFF3E720D4B680B03DE7DA3B2D8EE9 /* UICircularProgressRing */;
+			targetProxy = AD73A88815DCCFA592ABFF122839C625 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08638A96A528B1EC32DE62F8A728389D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		0E6B1C5C5DED4FF2D0427498F1212BB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDF7780A8680B8FE89235BA74A4B835C /* UICircularProgressRing.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UICircularProgressRing/UICircularProgressRing-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UICircularProgressRing/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UICircularProgressRing/UICircularProgressRing.modulemap";
+				PRODUCT_MODULE_NAME = UICircularProgressRing;
+				PRODUCT_NAME = UICircularProgressRing;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0F7278B39B45EAC133D38ADA64221B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6E93810E9D2051D9178B7260F512531 /* Pods-MedStreakUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MedStreakUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MedStreakUITests/Pods-MedStreakUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1B8FEBE6418B968C92EA150C440BE518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDF7780A8680B8FE89235BA74A4B835C /* UICircularProgressRing.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UICircularProgressRing/UICircularProgressRing-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UICircularProgressRing/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UICircularProgressRing/UICircularProgressRing.modulemap";
+				PRODUCT_MODULE_NAME = UICircularProgressRing;
+				PRODUCT_NAME = UICircularProgressRing;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		34E77E2E24311F3D2D8A6311074F3DC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC623EFB61B559C52789149460868AC8 /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		56D6EB7B0EFCD66C05D123915DC3860B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D34BF5EF019D01CF8B6614FDF5CAD2BE /* Pods-MedStreakUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MedStreakUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MedStreakUITests/Pods-MedStreakUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7F166E06738B68786136ABA7E31CB6E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9046498065853ABDFBF496DBF9207B5B /* CareKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CareKit/CareKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CareKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CareKit/CareKit.modulemap";
+				PRODUCT_MODULE_NAME = CareKit;
+				PRODUCT_NAME = CareKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9DAE5233986C01ADB6E67169C53A3FD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A2F9C74FA67DB323F577A0EE760A86AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37F431595FF9611DEB26E288A84AA513 /* Pods-MedStreak.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MedStreak/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MedStreak/Pods-MedStreak.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B2BA6BC08027958AB7BB993D348F40A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2C6AFCCAA9E01500AA6DD6E5CEF8BDA /* Pods-MedStreak.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MedStreak/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MedStreak/Pods-MedStreak.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B65857DA6E1A1C1A0D1C07662679213B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D71CCD1B600B2F6F5BDAFB08A60B72EB /* Pods-MedStreakTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MedStreakTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MedStreakTests/Pods-MedStreakTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C18155DB6746473143748B65E6B3CD05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC623EFB61B559C52789149460868AC8 /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E20D6C67190220BAB300ADAE2A6AE4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9046498065853ABDFBF496DBF9207B5B /* CareKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CareKit/CareKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CareKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CareKit/CareKit.modulemap";
+				PRODUCT_MODULE_NAME = CareKit;
+				PRODUCT_NAME = CareKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F686374CDA23D95075F8DC1CF36136FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F6DF529AFD9D39E09A52550CD740A5E /* Pods-MedStreakTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MedStreakTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MedStreakTests/Pods-MedStreakTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DAE5233986C01ADB6E67169C53A3FD2 /* Debug */,
+				08638A96A528B1EC32DE62F8A728389D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C18155DB6746473143748B65E6B3CD05 /* Debug */,
+				34E77E2E24311F3D2D8A6311074F3DC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		981A85324841A5D88F220AD6B2585EF1 /* Build configuration list for PBXNativeTarget "Pods-MedStreakUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F7278B39B45EAC133D38ADA64221B8A /* Debug */,
+				56D6EB7B0EFCD66C05D123915DC3860B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C87467F2FED8EB292F6B733B03572609 /* Build configuration list for PBXNativeTarget "Pods-MedStreak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2BA6BC08027958AB7BB993D348F40A4 /* Debug */,
+				A2F9C74FA67DB323F577A0EE760A86AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAF4537DD063F6328B6DC4935EF7B490 /* Build configuration list for PBXNativeTarget "UICircularProgressRing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B8FEBE6418B968C92EA150C440BE518 /* Debug */,
+				0E6B1C5C5DED4FF2D0427498F1212BB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCFD758C9332E9952A72EF7FA7790BB8 /* Build configuration list for PBXNativeTarget "Pods-MedStreakTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B65857DA6E1A1C1A0D1C07662679213B /* Debug */,
+				F686374CDA23D95075F8DC1CF36136FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7A55D6F7B362B5A640FD103731E20D0 /* Build configuration list for PBXNativeTarget "CareKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F166E06738B68786136ABA7E31CB6E2 /* Debug */,
+				E20D6C67190220BAB300ADAE2A6AE4BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		88E8C9D1972D462883832549FF0241BB /* OCKCarePlanStore.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				442E3506107E2DB541F936B0E6A42E12 /* OCKCarePlanStore.xcdatamodel */,
+				9CAA33C9CA8B077D97ADA7F7B77BE3FB /* OCKCarePlanStore v2.xcdatamodel */,
+			);
+			currentVersion = 9CAA33C9CA8B077D97ADA7F7B77BE3FB /* OCKCarePlanStore v2.xcdatamodel */;
+			name = OCKCarePlanStore.xcdatamodeld;
+			path = CareKit/CarePlan/OCKCarePlanStore.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
